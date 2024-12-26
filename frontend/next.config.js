@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  target: 'serverless',
   output: 'export',
-  distDir: 'public',
   images: {
     unoptimized: true,
     remotePatterns: [
