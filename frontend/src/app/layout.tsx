@@ -6,8 +6,8 @@ import Sidebar from "@/components/Sidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Virtual Monitor",
-  description: "Monitor Virtual Protocol agents price changes",
+  title: "aixRT - AI Exchange Real-Time",
+  description: "Real-time AI-powered monitoring and signals for Virtual Protocol agents",
 };
 
 export default function RootLayout({

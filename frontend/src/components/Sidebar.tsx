@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { HomeIcon, CogIcon, ChartBarIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, CogIcon, ChartBarIcon, BoltIcon, SignalIcon } from '@heroicons/react/24/outline';
 
 export default function Sidebar() {
   const pathname = usePathname();
@@ -10,13 +10,18 @@ export default function Sidebar() {
   const navigation = [
     { name: 'Dashboard', href: '/', icon: HomeIcon },
     { name: 'Agents', href: '/agents', icon: ChartBarIcon },
+    { name: 'Signals', href: '/signals', icon: SignalIcon },
+    { name: 'Real-Time', href: '/realtime', icon: BoltIcon },
     { name: 'Settings', href: '/settings', icon: CogIcon },
   ];
 
   return (
     <div className="flex flex-col w-64 bg-gray-800">
       <div className="flex items-center h-16 px-4">
-        <h1 className="text-xl font-bold text-white">Virtual Monitor</h1>
+        <div className="flex flex-col">
+          <h1 className="text-xl font-bold text-white">aixRT</h1>
+          <p className="text-xs text-gray-400">AI Exchange Real-Time</p>
+        </div>
       </div>
       <nav className="flex-1 px-2 py-4 space-y-1">
         {navigation.map((item) => {
@@ -31,11 +36,7 @@ export default function Sidebar() {
                   : 'text-gray-300 hover:bg-gray-700 hover:text-white'
               }`}
             >
-              <item.icon
-                className={`mr-3 h-6 w-6 ${
-                  isActive ? 'text-white' : 'text-gray-400'
-                }`}
-              />
+              <item.icon className="w-5 h-5 mr-3" />
               {item.name}
             </Link>
           );
