@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { Agent } from '@/types';
 
 const API_URL = 'https://api.virtuals.io/api/virtuals';
 const MONITORED_AGENTS_FILE = path.join(process.cwd(), 'config', 'monitored-agents.json');
@@ -33,23 +34,20 @@ async function fetchAgentData(agentId: string) {
     }
     
     const data = await response.json();
-    const agents = data.data || [];
+    const agent = data.data?.[0];
     
-    if (!agents.length) {
-      console.error("No agent found with ID:", agentId);
+    if (!agent) {
       return null;
     }
-    
-    const agent = agents[0];
+
+    // Transform and ensure all required fields are present
     return {
-      id: agent.id,
-      name: agent.name || `Agent #${agent.id}`,
-      category: (agent.category || 'BASE').toUpperCase(),
-      mcapInVirtual: agent.mcapInVirtual || 0,
-      holderCount: agent.holderCount || 0,
+      ...agent,
+      totalValueLocked: agent.totalValueLocked || 0,
+      priceHistory: agent.priceHistory || []
     };
   } catch (error) {
-    console.error('Error fetching agent data:', error);
+    console.error(`Error fetching agent ${agentId}:`, error);
     return null;
   }
 }
@@ -69,6 +67,8 @@ export async function GET(request: Request) {
         category: (agent.category || 'BASE').toUpperCase(),
         mcapInVirtual: agent.mcapInVirtual || 0,
         holderCount: agent.holderCount || 0,
+        totalValueLocked: agent.totalValueLocked || 0,
+        priceHistory: agent.priceHistory || []
       }));
       return NextResponse.json({ agents: formattedAgents });
     }
@@ -92,9 +92,16 @@ export async function GET(request: Request) {
     const agentPromises = monitoredAgents.map(fetchAgentData);
     const agents = await Promise.all(agentPromises);
     
-    // Filter out null results and return valid agents
-    const validAgents = agents.filter(agent => agent !== null);
-    
+    // Filter out null values and ensure all required fields
+    const validAgents = agents.filter((agent): agent is Agent => {
+      if (!agent) return false;
+      return true;
+    }).map(agent => ({
+      ...agent,
+      totalValueLocked: agent.totalValueLocked || 0,
+      priceHistory: agent.priceHistory || []
+    }));
+
     return NextResponse.json({ agents: validAgents });
   } catch (error) {
     console.error('Error in GET /api/agents:', error);
