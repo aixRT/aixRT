@@ -3,13 +3,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import AgentCard from '@/components/AgentCard';
-
-interface Agent {
-  id: number;
-  name: string;
-  mcapInVirtual: number;
-  holderCount: number;
-}
+import { BoltIcon, SignalIcon, ChartBarIcon } from '@heroicons/react/24/outline';
+import { Agent } from '@/types';
 
 export default function Home() {
   const [agents, setAgents] = useState<Agent[]>([]);
@@ -24,7 +19,13 @@ export default function Home() {
           throw new Error('Failed to fetch agents');
         }
         const data = await response.json();
-        setAgents(data.agents || []);
+        // Transform the data to match our Agent interface
+        const transformedAgents: Agent[] = (data.agents || []).map((agent: any) => ({
+          ...agent,
+          totalValueLocked: agent.totalValueLocked || 0,
+          priceHistory: agent.priceHistory || []
+        }));
+        setAgents(transformedAgents);
       } catch (err: any) {
         console.error('Error:', err);
         setError(err.message);
@@ -37,49 +38,60 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="p-6">
-      <div className="mb-6 flex justify-between items-center">
-        <div>
-          <h1 className="text-3xl font-bold">Dashboard</h1>
-          <p className="text-gray-600">Monitor your selected agents</p>
-        </div>
-        <Link 
-          href="/agents" 
-          className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-        >
-          Manage Agents
-        </Link>
+    <div className="p-8">
+      <div className="mb-8">
+        <h1 className="text-3xl font-bold text-gray-900">Welcome to aixRT</h1>
+        <p className="mt-2 text-gray-600">AI-powered real-time monitoring and signals for Virtual Protocol agents</p>
       </div>
 
-      {loading ? (
-        <div className="flex justify-center items-center h-64">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
-        </div>
-      ) : error ? (
-        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded relative" role="alert">
-          <strong className="font-bold">Error! </strong>
-          <span className="block sm:inline">{error}</span>
-        </div>
-      ) : agents.length === 0 ? (
-        <div className="text-center py-12">
-          <h3 className="mt-2 text-sm font-medium text-gray-900">No agents selected</h3>
-          <p className="mt-1 text-sm text-gray-500">Get started by selecting agents to monitor.</p>
-          <div className="mt-6">
-            <Link
-              href="/agents"
-              className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-            >
-              Select Agents
-            </Link>
+      <div className="grid grid-cols-1 gap-6 mb-8 lg:grid-cols-3">
+        <div className="p-6 bg-white rounded-lg shadow">
+          <div className="flex items-center">
+            <BoltIcon className="w-8 h-8 text-blue-500" />
+            <h2 className="ml-3 text-xl font-semibold">Real-Time Monitoring</h2>
           </div>
+          <p className="mt-4 text-gray-600">Track agent performance and market movements as they happen</p>
+        </div>
+
+        <div className="p-6 bg-white rounded-lg shadow">
+          <div className="flex items-center">
+            <SignalIcon className="w-8 h-8 text-green-500" />
+            <h2 className="ml-3 text-xl font-semibold">AI Signals</h2>
+          </div>
+          <p className="mt-4 text-gray-600">Receive intelligent alerts and trading signals</p>
+        </div>
+
+        <div className="p-6 bg-white rounded-lg shadow">
+          <div className="flex items-center">
+            <ChartBarIcon className="w-8 h-8 text-purple-500" />
+            <h2 className="ml-3 text-xl font-semibold">Market Analysis</h2>
+          </div>
+          <p className="mt-4 text-gray-600">Deep insights into agent performance and market trends</p>
+        </div>
+      </div>
+
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold text-gray-900">Monitored Agents</h2>
+        <p className="mt-2 text-gray-600">Real-time status of Virtual Protocol agents</p>
+      </div>
+
+      {error && (
+        <div className="p-4 mb-6 text-red-700 bg-red-100 rounded-lg">
+          Error: {error}
+        </div>
+      )}
+
+      {loading ? (
+        <div className="text-center">
+          <div className="w-8 h-8 mx-auto border-4 border-t-blue-500 border-b-blue-500 rounded-full animate-spin"></div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {agents.map((agent) => (
             <AgentCard key={agent.id} agent={agent} />
           ))}
         </div>
       )}
-    </main>
+    </div>
   );
 }
