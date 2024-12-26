@@ -230,9 +230,9 @@ if __name__ == "__main__":
     
     # Monitor all configured tokens
     print(f"\nStarting monitor with:")
-    print(f"- Price change alerts: ≥{monitor.config.price_change_threshold}%")
-    print(f"- Volume spike alerts: ≥{monitor.config.volume_spike_threshold}%")
-    print(f"- Large order alerts: ≥{monitor.config.large_order_threshold} VIRTUAL")
+    print(f"- Price change alerts: >={monitor.config.price_change_threshold}%")
+    print(f"- Volume spike alerts: >={monitor.config.volume_spike_threshold}%")
+    print(f"- Large order alerts: >={monitor.config.large_order_threshold} VIRTUAL")
     print("\nPress Ctrl+C to stop\n")
     
     while True:
