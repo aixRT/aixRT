@@ -1,0 +1,15 @@
+[Unit]
+Description=Virtual Monitor Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/virtual-monitor
+Environment=PYTHONPATH=/root/virtual-monitor
+ExecStart=/root/virtual-monitor/venv/bin/python monitor.py H1DR4
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
