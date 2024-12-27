@@ -1,50 +1,52 @@
 'use client';
 
 import { Agent } from '@/types';
-import { ArrowUpIcon, ArrowDownIcon } from '@heroicons/react/24/solid';
+import { ArrowTrendingUpIcon, ArrowTrendingDownIcon } from '@heroicons/react/24/outline';
 
 interface AgentCardProps {
   agent: Agent;
 }
 
 export default function AgentCard({ agent }: AgentCardProps) {
-  const priceChange = 0; // Calculate from price history
-
-  // Safely format numbers with fallbacks
-  const formatNumber = (num: number | undefined) => {
-    if (num === undefined || isNaN(num)) return '0';
-    return num.toLocaleString();
-  };
+  const isPositive = agent.priceHistory?.[agent.priceHistory.length - 1]?.change > 0;
 
   return (
-    <div className="bg-white rounded-lg shadow p-6">
-      <div className="flex justify-between items-start mb-4">
+    <div className="p-6 bg-aixrt-navy/30 rounded-lg border border-aixrt-gold/20 backdrop-blur-sm shadow-xl transition-all duration-200 hover:shadow-aixrt-gold/20 hover:border-aixrt-gold/40">
+      <div className="flex justify-between items-start">
         <div>
-          <h3 className="text-lg font-semibold">{agent.name || 'Unknown'}</h3>
-          <p className="text-sm text-gray-500">#{agent.id || '0'}</p>
+          <h3 className="text-xl font-semibold text-aixrt-gold">{agent.name}</h3>
+          <p className="text-sm text-gray-400">{agent.description}</p>
         </div>
-        <div className={`flex items-center ${priceChange >= 0 ? 'text-green-500' : 'text-red-500'}`}>
-          {priceChange >= 0 ? (
-            <ArrowUpIcon className="h-5 w-5" />
+        <div className={`flex items-center ${isPositive ? 'text-green-400' : 'text-red-400'}`}>
+          {isPositive ? (
+            <ArrowTrendingUpIcon className="w-6 h-6" />
           ) : (
-            <ArrowDownIcon className="h-5 w-5" />
+            <ArrowTrendingDownIcon className="w-6 h-6" />
           )}
-          <span className="ml-1 font-medium">{Math.abs(priceChange)}%</span>
         </div>
       </div>
 
-      <div className="space-y-2">
-        <div className="flex justify-between">
-          <span className="text-gray-500">Market Cap</span>
-          <span className="font-medium">{formatNumber(agent.mcapInVirtual)} VIRTUAL</span>
+      <div className="mt-4 grid grid-cols-2 gap-4">
+        <div className="p-3 bg-aixrt-navy/50 rounded-lg border border-aixrt-gold/10">
+          <p className="text-sm text-gray-400">TVL</p>
+          <p className="text-lg font-semibold text-aixrt-gold">
+            ${agent.totalValueLocked.toLocaleString()}
+          </p>
         </div>
-        <div className="flex justify-between">
-          <span className="text-gray-500">Holders</span>
-          <span className="font-medium">{formatNumber(agent.holderCount)}</span>
+        <div className="p-3 bg-aixrt-navy/50 rounded-lg border border-aixrt-gold/10">
+          <p className="text-sm text-gray-400">24h Change</p>
+          <p className={`text-lg font-semibold ${isPositive ? 'text-green-400' : 'text-red-400'}`}>
+            {isPositive ? '+' : ''}{agent.priceHistory?.[agent.priceHistory.length - 1]?.change.toFixed(2)}%
+          </p>
         </div>
-        <div className="flex justify-between">
-          <span className="text-gray-500">TVL</span>
-          <span className="font-medium">{formatNumber(agent.totalValueLocked)}</span>
+      </div>
+
+      <div className="mt-4">
+        <div className="h-20 w-full bg-aixrt-navy/50 rounded-lg border border-aixrt-gold/10 overflow-hidden">
+          {/* Price chart will go here */}
+          <div className="w-full h-full flex items-center justify-center">
+            <p className="text-sm text-gray-400">Chart Coming Soon</p>
+          </div>
         </div>
       </div>
     </div>

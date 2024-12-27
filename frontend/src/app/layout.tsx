@@ -17,10 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-aixrt-black`}>
         <div className="flex h-screen">
           <Sidebar />
-          <main className="flex-1 overflow-auto bg-gray-50">
+          <main className="flex-1 overflow-auto bg-gradient-to-br from-aixrt-black via-aixrt-navy/10 to-aixrt-purple/10">
             {children}
           </main>
         </div>

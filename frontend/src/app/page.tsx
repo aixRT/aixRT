@@ -1,9 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import AgentCard from '@/components/AgentCard';
-import { BoltIcon, SignalIcon, ChartBarIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 import { Agent } from '@/types';
 
 export default function Home() {
@@ -19,7 +17,6 @@ export default function Home() {
           throw new Error('Failed to fetch agents');
         }
         const data = await response.json();
-        // Transform the data to match our Agent interface
         const transformedAgents: Agent[] = (data.agents || []).map((agent: any) => ({
           ...agent,
           totalValueLocked: agent.totalValueLocked || 0,
@@ -38,60 +35,77 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="p-8">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">Welcome to aixRT</h1>
-        <p className="mt-2 text-gray-600">AI-powered real-time monitoring and signals for Virtual Protocol agents</p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-b from-black via-aixrt-navy/30 to-black">
+      <div className="max-w-7xl mx-auto p-8">
+        <div className="mb-16">
+          <h1 className="text-4xl font-bold text-aixrt-gold mb-4">
+            Welcome to aixRT
+          </h1>
+          <p className="text-gray-400 text-lg">
+            AI-powered real-time monitoring and signals for Virtual Protocol agents
+          </p>
+        </div>
 
-      <div className="grid grid-cols-1 gap-6 mb-8 lg:grid-cols-3">
-        <div className="p-6 bg-white rounded-lg shadow">
-          <div className="flex items-center">
-            <BoltIcon className="w-8 h-8 text-blue-500" />
-            <h2 className="ml-3 text-xl font-semibold">Real-Time Monitoring</h2>
+        {loading && (
+          <div className="text-aixrt-gold">Loading agents...</div>
+        )}
+
+        {error && (
+          <div className="text-red-500 bg-red-500/10 border border-red-500/20 rounded-lg p-4">
+            Error: {error}
           </div>
-          <p className="mt-4 text-gray-600">Track agent performance and market movements as they happen</p>
-        </div>
+        )}
 
-        <div className="p-6 bg-white rounded-lg shadow">
-          <div className="flex items-center">
-            <SignalIcon className="w-8 h-8 text-green-500" />
-            <h2 className="ml-3 text-xl font-semibold">AI Signals</h2>
+        {!loading && !error && agents.length === 0 && (
+          <div className="text-aixrt-gold/60">No agents found</div>
+        )}
+
+        {!loading && !error && agents.length > 0 && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {agents.map((agent) => (
+              <div
+                key={agent.id}
+                className="bg-aixrt-navy/20 rounded-xl border border-aixrt-gold/20 overflow-hidden backdrop-blur-sm hover:border-aixrt-gold/40 transition-all duration-200"
+              >
+                <div className="relative h-48 bg-gradient-to-br from-aixrt-purple/80 to-aixrt-navy p-4">
+                  <div className="absolute top-3 right-3 px-3 py-1 rounded-full bg-aixrt-purple/90 text-aixrt-gold text-xs border border-aixrt-gold/30">
+                    AGENT
+                  </div>
+                </div>
+
+                <div className="p-6 space-y-4">
+                  <h3 className="text-xl font-bold text-aixrt-gold">{agent.name}</h3>
+                  
+                  <div className="space-y-2 text-sm">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-400">Market Cap:</span>
+                      <span className="text-aixrt-gold font-medium">
+                        ${agent.totalValueLocked?.toLocaleString()}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-400">Price Change (1h):</span>
+                      <span className="text-green-400 font-medium">+5.2%</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-400">Alert Profile:</span>
+                      <span className="text-aixrt-gold font-medium">Aggressive</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-400">Time Window:</span>
+                      <span className="text-aixrt-gold font-medium">15min</span>
+                    </div>
+                  </div>
+
+                  <button className="w-full py-2.5 bg-aixrt-purple text-aixrt-gold border border-aixrt-gold/30 rounded-lg hover:bg-aixrt-purple/80 hover:border-aixrt-gold/60 transition-all duration-200 font-medium">
+                    VIEW DETAILS
+                  </button>
+                </div>
+              </div>
+            ))}
           </div>
-          <p className="mt-4 text-gray-600">Receive intelligent alerts and trading signals</p>
-        </div>
-
-        <div className="p-6 bg-white rounded-lg shadow">
-          <div className="flex items-center">
-            <ChartBarIcon className="w-8 h-8 text-purple-500" />
-            <h2 className="ml-3 text-xl font-semibold">Market Analysis</h2>
-          </div>
-          <p className="mt-4 text-gray-600">Deep insights into agent performance and market trends</p>
-        </div>
+        )}
       </div>
-
-      <div className="mb-6">
-        <h2 className="text-2xl font-bold text-gray-900">Monitored Agents</h2>
-        <p className="mt-2 text-gray-600">Real-time status of Virtual Protocol agents</p>
-      </div>
-
-      {error && (
-        <div className="p-4 mb-6 text-red-700 bg-red-100 rounded-lg">
-          Error: {error}
-        </div>
-      )}
-
-      {loading ? (
-        <div className="text-center">
-          <div className="w-8 h-8 mx-auto border-4 border-t-blue-500 border-b-blue-500 rounded-full animate-spin"></div>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {agents.map((agent) => (
-            <AgentCard key={agent.id} agent={agent} />
-          ))}
-        </div>
-      )}
     </div>
   );
 }

@@ -1,4 +1,7 @@
-# Virtual Monitor
+# aixRT
+
+A real-time monitoring tool for Virtual Protocol agents. Track price movements, set alerts, and receive instant notifications through Discord or Telegram.
+# aixRT
 
 A real-time monitoring tool for Virtual Protocol agents. Track price movements, set alerts, and receive instant notifications through Discord or Telegram.
 
