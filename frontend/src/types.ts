@@ -1,8 +1,12 @@
 export interface Agent {
   id: string;
   name: string;
+  ticker: string;
   type: 'MICRO_CAP' | 'SMALL_CAP' | 'MID_CAP' | 'LARGE_CAP';
+  category: 'FUNCTIONAL' | 'IP_MIRROR' | 'OTHER';
   marketCap: number;
+  price: number;
+  holders: number;
   priceChange: {
     fiveMin: number;
     fifteenMin: number;

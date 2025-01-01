@@ -1,204 +1,37 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-import { Agent } from '@/types';
+import { getAgentUID, getAccessToken } from '@/lib/virtualsApi';
 
-const API_URL = 'https://api.virtuals.io/api/virtuals';
-const MONITORED_AGENTS_FILE = path.join(process.cwd(), 'config', 'monitored-agents.json');
-
-async function fetchAllAgents() {
+export async function GET() {
   try {
-    const response = await fetch(API_URL);
-    if (!response.ok) {
-      throw new Error(`API error: Status ${response.status}`);
-    }
+    // For testing, we'll use Luna's ID (68)
+    const agentData = await getAgentUID('68');
     
-    const data = await response.json();
-    return data.data || [];
-  } catch (error) {
-    console.error('Error fetching all agents:', error);
-    return [];
-  }
-}
-
-async function fetchAgentData(agentId: string) {
-  const params = new URLSearchParams({
-    'pagination[page]': '1',
-    'filters[id][$eq]': agentId,
-  });
-
-  try {
-    const response = await fetch(`${API_URL}?${params}`);
-    if (!response.ok) {
-      throw new Error(`API error: Status ${response.status}`);
-    }
-    
-    const data = await response.json();
-    const agent = data.data?.[0];
-    
-    if (!agent) {
-      return null;
-    }
-
-    // Transform and ensure all required fields are present
-    return {
-      ...agent,
-      totalValueLocked: agent.totalValueLocked || 0,
-      priceHistory: agent.priceHistory || []
-    };
-  } catch (error) {
-    console.error(`Error fetching agent ${agentId}:`, error);
-    return null;
-  }
-}
-
-// Get all available agents or monitored agents
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const getAll = searchParams.get('all') === 'true';
-
-  try {
-    if (getAll) {
-      // Fetch all available agents
-      const allAgents = await fetchAllAgents();
-      const formattedAgents = allAgents.map((agent: any) => ({
-        id: agent.id,
-        name: agent.name || `Agent #${agent.id}`,
-        category: (agent.category || 'BASE').toUpperCase(),
-        mcapInVirtual: agent.mcapInVirtual || 0,
-        holderCount: agent.holderCount || 0,
-        totalValueLocked: agent.totalValueLocked || 0,
-        priceHistory: agent.priceHistory || []
-      }));
-      return NextResponse.json({ agents: formattedAgents });
-    }
-
-    // Otherwise, fetch only monitored agents
-    let monitoredAgents = ['15729']; // Default to H1DR4
-    if (fs.existsSync(MONITORED_AGENTS_FILE)) {
-      const fileContent = fs.readFileSync(MONITORED_AGENTS_FILE, 'utf-8');
-      monitoredAgents = JSON.parse(fileContent);
-    } else {
-      // Create config directory if it doesn't exist
-      const configDir = path.dirname(MONITORED_AGENTS_FILE);
-      if (!fs.existsSync(configDir)) {
-        fs.mkdirSync(configDir, { recursive: true });
+    // Add mock data for now
+    const mockAgents = [
+      {
+        id: agentData.data.uid,
+        name: "Luna",
+        ticker: "LUNA",
+        category: "IP_MIRROR",
+        marketCap: 50000,
+        holders: 1200
+      },
+      {
+        id: "39c50d2e-345f-457a-b021-8b2d83dc67ef", // Example agent ID
+        name: "GAME",
+        ticker: "GAME",
+        category: "FUNCTIONAL",
+        marketCap: 500,
+        holders: 0
       }
-      // Save default agent list
-      fs.writeFileSync(MONITORED_AGENTS_FILE, JSON.stringify(monitoredAgents));
-    }
+    ];
 
-    // Fetch data for each monitored agent
-    const agentPromises = monitoredAgents.map(fetchAgentData);
-    const agents = await Promise.all(agentPromises);
-    
-    // Filter out null values and ensure all required fields
-    const validAgents = agents.filter((agent): agent is Agent => {
-      if (!agent) return false;
-      return true;
-    }).map(agent => ({
-      ...agent,
-      totalValueLocked: agent.totalValueLocked || 0,
-      priceHistory: agent.priceHistory || []
-    }));
-
-    return NextResponse.json({ agents: validAgents });
+    return NextResponse.json({ agents: mockAgents });
   } catch (error) {
-    console.error('Error in GET /api/agents:', error);
+    console.error('Error in agents route:', error);
     return NextResponse.json(
       { error: 'Failed to fetch agents' },
       { status: 500 }
     );
   }
-}
-
-// Add new agent to monitor
-export async function POST(request: Request) {
-  try {
-    const { agentId } = await request.json();
-    
-    // Validate agent ID
-    if (!agentId) {
-      return NextResponse.json(
-        { error: 'Agent ID is required' },
-        { status: 400 }
-      );
-    }
-
-    // Read current monitored agents
-    let monitoredAgents = [];
-    if (fs.existsSync(MONITORED_AGENTS_FILE)) {
-      const fileContent = fs.readFileSync(MONITORED_AGENTS_FILE, 'utf-8');
-      monitoredAgents = JSON.parse(fileContent);
-    }
-
-    // Check if agent is already being monitored
-    if (monitoredAgents.includes(agentId)) {
-      return NextResponse.json(
-        { error: 'Agent is already being monitored' },
-        { status: 400 }
-      );
-    }
-
-    // Add new agent
-    monitoredAgents.push(agentId);
-    fs.writeFileSync(MONITORED_AGENTS_FILE, JSON.stringify(monitoredAgents));
-
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error('Error in POST /api/agents:', error);
-    return NextResponse.json(
-      { error: 'Failed to add agent' },
-      { status: 500 }
-    );
-  }
-}
-
-// Remove agent from monitoring
-export async function DELETE(request: Request) {
-  try {
-    const { agentId } = await request.json();
-    
-    // Validate agent ID
-    if (!agentId) {
-      return NextResponse.json(
-        { error: 'Agent ID is required' },
-        { status: 400 }
-      );
-    }
-
-    // Read current monitored agents
-    if (!fs.existsSync(MONITORED_AGENTS_FILE)) {
-      return NextResponse.json(
-        { error: 'No agents are being monitored' },
-        { status: 404 }
-      );
-    }
-
-    const fileContent = fs.readFileSync(MONITORED_AGENTS_FILE, 'utf-8');
-    let monitoredAgents = JSON.parse(fileContent);
-
-    // Remove agent
-    monitoredAgents = monitoredAgents.filter(id => id !== agentId);
-    fs.writeFileSync(MONITORED_AGENTS_FILE, JSON.stringify(monitoredAgents));
-
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error('Error in DELETE /api/agents:', error);
-    return NextResponse.json(
-      { error: 'Failed to remove agent' },
-      { status: 500 }
-    );
-  }
-}
-
-// Handle OPTIONS requests for CORS
-export async function OPTIONS() {
-  return NextResponse.json({}, {
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-    },
-  });
 }

@@ -1,125 +1,104 @@
-# aixRT
+# aixRT - AI Exchange Real-Time
 
-A real-time monitoring tool for Virtual Protocol agents. Track price movements, set alerts, and receive instant notifications through Discord or Telegram.
-# aixRT
-
-A real-time monitoring tool for Virtual Protocol agents. Track price movements, set alerts, and receive instant notifications through Discord or Telegram.
+A sophisticated monitoring and analytics platform for Virtual Protocol agents, providing real-time data, portfolio tracking, and AI-powered insights.
 
 ## Features
 
-### Price Movement Tracking
-- Customizable alert profiles (Conservative, Balanced, Aggressive)
-- Time windows: 5min, 15min, 1hr
-- Market cap based thresholds:
-  - Micro Cap: 5-15% (based on profile)
-  - Small Cap: 4-10% (based on profile)
-  - Mid Cap: 3-7% (based on profile)
-  - Large Cap: 2-5% (based on profile)
+### Core Functionality
+- **Dashboard**: Central command center for monitoring key metrics and recent activity
+- **Holdings**: Track portfolio value, token balances, and performance metrics across wallets
+- **Agents**: Monitor Virtual Protocol agents with market cap tracking and holder analytics
+- **Real-Time**: Watch live price movements, volume changes, and market activity
+- **Signals**: Receive AI-powered trading signals with confidence ratings
+- **Alerts**: Configure custom notifications for price, volume, and holder changes
 
-### Notification Options
-- Discord webhooks integration
-- Telegram bot integration
-- Test notification feature
-- Customizable alert messages
+### Technical Features
+- Built with Next.js 14 and React
+- TypeScript for type safety
+- Tailwind CSS for modern styling
+- Real-time data updates
+- Responsive design
+- Dark mode optimized
 
-### User Interface
-- Clean, modern web interface
-- Real-time agent monitoring
-- Easy settings configuration
-- Market cap indicators
-- Visual price charts
+## Getting Started
 
-## Quick Start
+### Prerequisites
+```bash
+Node.js >= 18.0.0
+npm >= 9.0.0
+```
 
-### Using the Web Interface
-1. Visit [Virtual Monitor](https://virtual-monitor.vercel.app)
-2. Configure your notification preferences:
-   - Add Discord webhook URL and/or
-   - Set up Telegram bot token and chat ID
-3. Choose your alert profile (Conservative/Balanced/Aggressive)
-4. Select your preferred time window
-5. Start monitoring!
-
-### Manual Setup
-If you prefer manual setup:
-
+### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/virtual-monitor.git
-cd virtual-monitor
+git clone https://github.com/yourusername/aixrt.git
+cd aixrt
 ```
 
 2. Install dependencies
 ```bash
-# Backend
-python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
-pip install -r requirements.txt
-
-# Frontend
-cd frontend
 npm install
 ```
 
-3. Configure environment variables
+3. Set up environment variables
 ```bash
-# Create .env file in root directory
-cp .env.example .env
-# Edit .env with your settings
+cp .env.example .env.local
 ```
+Edit `.env.local` with your API keys and configuration
 
-4. Start the services
+4. Start the development server
 ```bash
-# Backend
-python monitor.py
-
-# Frontend (in another terminal)
-cd frontend
 npm run dev
 ```
 
-## Upcoming Features
+Visit `http://localhost:3000` to view the application
 
-### Alert Types
-- ⚡ Rapid movement alerts for sudden changes
-- 🚨 Regular movement alerts
-- 💰 Large order alerts
-- 📈 Volume spike alerts
+## Project Structure
+```
+frontend/
+  ├── src/
+  │   ├── app/         # Next.js pages
+  │   ├── components/  # Reusable components
+  │   └── lib/         # Utilities and APIs
+  └── public/          # Static assets
+```
 
-### Volume Activity Tracking
-- Regular volume spikes ≥ 50%
-- Rapid volume surges ≥ 25% in 1 minute
-- Comparisons against 1-hour moving average
+## API Integrations
+- GeckoTerminal for market data
+- DexScreener for price feeds
+- Blockchain APIs for wallet data
 
-### Order Flow Monitoring
-- Checks every 30 seconds
-- Minimum order value: 50 VIRTUAL
-- Large order threshold: 500 VIRTUAL
-- Multiple time windows:
-  - 1min: 3+ orders
-  - 3min: 8+ orders
-  - 5min: 12+ orders
-  - 15min: 25+ orders
+## Development
 
-## Price Alerts:
-- Tracks significant price movements (configurable threshold)
-- Alerts on both upward and downward movements
-- Percentage-based triggers
-- Price Level Alerts:
-  - Set specific price targets for individual agents
-  - Alert when price crosses above/below target levels
-  - Multiple price levels per agent
-  - Easy to add/remove price targets
-  - Visual price level management in settings
+### Commands
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run linting
+npm run test     # Run tests
+```
 
-### Enhanced Market Analysis
-- Market sentiment analysis based on buy/sell ratios
-- Price trend prediction using moving averages
-- Historical performance metrics
-- Custom indicator support
+### Style Guide
+- Follow TypeScript best practices
+- Use Tailwind CSS for styling
+- Maintain consistent component structure
+- Add JSDoc comments for documentation
+
+### Color Scheme
+- Primary: aixrt-navy (backgrounds)
+- Secondary: aixrt-purple (accents)
+- Accent: aixrt-gold (highlights)
 
 ## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is proprietary software. All rights reserved.
+
+## Support
+For support, please open an issue in the repository or contact the development team.

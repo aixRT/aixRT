@@ -76,7 +76,7 @@ class NotificationManager:
         # Initialize Telegram if configured
         if telegram_token and telegram_chats:
             self.services.append(TelegramNotifier(telegram_token, telegram_chats))
-    
+
     def send_alert(self, agent_name: str, alert_message: str):
         """Send alert to all configured notification services"""
         for service in self.services:

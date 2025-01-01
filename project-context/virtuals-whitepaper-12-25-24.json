@@ -1,0 +1,1589 @@
+{
+    "pages": [
+        {
+            "url": "https://whitepaper.virtuals.io/",
+            "headings": [
+                "Our one liner",
+                "Co-ownership of AI Agents in Entertainment and Gaming"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Virtuals Protocol is building the co-ownership layer for AI agents in gaming and entertainment. We believe AI agents are the revenue-generating assets of the future. These agents can operate across a wide range of applications and games, significantly expanding their revenue surface area. Like any other productive asset, we enable these AI agents to be tokenized and co-owned via blockchain.",
+                "Our technological innovations have given VIRTUAL AI Agents unique capabilities: they are autonomous in their planning and goal achievement, multimodal (able to communicate via text, speech, and 3D animation), and capable of interacting with their environments\u2014whether it\u2019s picking up a sword in Roblox or collecting gifts in TikTok, and even using on-chain wallets! Imagine a fully-AI influencer who also functions as a gaming NPC, seamlessly existing across multiple platforms like Roblox, Telegram games, and more. These agents maintain memory across applications, allowing users to form deeper, lasting connections\u2014ultimately increasing ARPU (Average Revenue Per User).",
+                "",
+                "The protocol addresses 3 key pain points:",
+                "Complexity in implementing AI agents into consumer applications:VIRTUAL AI Agents offer a plug-and-play, Shopify-like solution, allowing games and consumer apps to deploy AI agents effortlessly.",
+                "Lack of revenue for AI finetuners and dataset contributors:VIRTUAL\u2019s Immutable Contribution Vaults ensure that the provenance of contributors\u2019 work is stored on-chain, enabling decentralized contributions and revenue alignment.",
+                "Limited access for non-AI experts to capitalize on AI agent opportunities:VIRTUAL's Initial Agent Offering facilitates the tokenization and decentralized co-ownership of AI agents, making ownership and participation accessible to a broader audience.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FpHEFXCvAIxZAhvIAzbn7%252FAI%2520Agent%2520%282%29.png%3Falt%3Dmedia%26token%3Df74844d3-f372-4978-bfac-27f16b270010&width=768&dpr=4&quality=100&sign=a0550fe3&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXJi0Zsqj7kawmfoIZOie%252FOneliner%2520-%2520Luna%2520Capabilities.png%3Falt%3Dmedia%26token%3D313998cc-a1c8-4bdf-a264-0cd69a0316a1&width=768&dpr=4&quality=100&sign=58d2ef1e&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/",
+            "headings": [
+                "Our one liner",
+                "Co-ownership of AI Agents in Entertainment and Gaming"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Virtuals Protocol is building the co-ownership layer for AI agents in gaming and entertainment. We believe AI agents are the revenue-generating assets of the future. These agents can operate across a wide range of applications and games, significantly expanding their revenue surface area. Like any other productive asset, we enable these AI agents to be tokenized and co-owned via blockchain.",
+                "Our technological innovations have given VIRTUAL AI Agents unique capabilities: they are autonomous in their planning and goal achievement, multimodal (able to communicate via text, speech, and 3D animation), and capable of interacting with their environments\u2014whether it\u2019s picking up a sword in Roblox or collecting gifts in TikTok, and even using on-chain wallets! Imagine a fully-AI influencer who also functions as a gaming NPC, seamlessly existing across multiple platforms like Roblox, Telegram games, and more. These agents maintain memory across applications, allowing users to form deeper, lasting connections\u2014ultimately increasing ARPU (Average Revenue Per User).",
+                "",
+                "The protocol addresses 3 key pain points:",
+                "Complexity in implementing AI agents into consumer applications:VIRTUAL AI Agents offer a plug-and-play, Shopify-like solution, allowing games and consumer apps to deploy AI agents effortlessly.",
+                "Lack of revenue for AI finetuners and dataset contributors:VIRTUAL\u2019s Immutable Contribution Vaults ensure that the provenance of contributors\u2019 work is stored on-chain, enabling decentralized contributions and revenue alignment.",
+                "Limited access for non-AI experts to capitalize on AI agent opportunities:VIRTUAL's Initial Agent Offering facilitates the tokenization and decentralized co-ownership of AI agents, making ownership and participation accessible to a broader audience.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FpHEFXCvAIxZAhvIAzbn7%252FAI%2520Agent%2520%282%29.png%3Falt%3Dmedia%26token%3Df74844d3-f372-4978-bfac-27f16b270010&width=768&dpr=4&quality=100&sign=a0550fe3&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXJi0Zsqj7kawmfoIZOie%252FOneliner%2520-%2520Luna%2520Capabilities.png%3Falt%3Dmedia%26token%3D313998cc-a1c8-4bdf-a264-0cd69a0316a1&width=768&dpr=4&quality=100&sign=58d2ef1e&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/?fallback=true",
+            "headings": [
+                "Our one liner",
+                "Co-ownership of AI Agents in Entertainment and Gaming"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Virtuals Protocol is building the co-ownership layer for AI agents in gaming and entertainment. We believe AI agents are the revenue-generating assets of the future. These agents can operate across a wide range of applications and games, significantly expanding their revenue surface area. Like any other productive asset, we enable these AI agents to be tokenized and co-owned via blockchain.",
+                "Our technological innovations have given VIRTUAL AI Agents unique capabilities: they are autonomous in their planning and goal achievement, multimodal (able to communicate via text, speech, and 3D animation), and capable of interacting with their environments\u2014whether it\u2019s picking up a sword in Roblox or collecting gifts in TikTok, and even using on-chain wallets! Imagine a fully-AI influencer who also functions as a gaming NPC, seamlessly existing across multiple platforms like Roblox, Telegram games, and more. These agents maintain memory across applications, allowing users to form deeper, lasting connections\u2014ultimately increasing ARPU (Average Revenue Per User).",
+                "",
+                "The protocol addresses 3 key pain points:",
+                "Complexity in implementing AI agents into consumer applications:VIRTUAL AI Agents offer a plug-and-play, Shopify-like solution, allowing games and consumer apps to deploy AI agents effortlessly.",
+                "Lack of revenue for AI finetuners and dataset contributors:VIRTUAL\u2019s Immutable Contribution Vaults ensure that the provenance of contributors\u2019 work is stored on-chain, enabling decentralized contributions and revenue alignment.",
+                "Limited access for non-AI experts to capitalize on AI agent opportunities:VIRTUAL's Initial Agent Offering facilitates the tokenization and decentralized co-ownership of AI agents, making ownership and participation accessible to a broader audience.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FpHEFXCvAIxZAhvIAzbn7%252FAI%2520Agent%2520%282%29.png%3Falt%3Dmedia%26token%3Df74844d3-f372-4978-bfac-27f16b270010&width=768&dpr=4&quality=100&sign=a0550fe3&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXJi0Zsqj7kawmfoIZOie%252FOneliner%2520-%2520Luna%2520Capabilities.png%3Falt%3Dmedia%26token%3D313998cc-a1c8-4bdf-a264-0cd69a0316a1&width=768&dpr=4&quality=100&sign=58d2ef1e&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/kr?fallback=true",
+            "headings": [
+                "\uc18c\uac1c (Our one liner)",
+                "\uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 \ubc0f \uac8c\uc784 \ubd84\uc57c\uc758 AI \uc5d0\uc774\uc804\ud2b8 \uacf5\ub3d9 \uc18c\uc720"
+            ],
+            "paragraphs": [
+                "Last updated1 month ago",
+                "",
+                "\ubc84\ucd94\uc5bc\uc988 \ud504\ub85c\ud1a0\ucf5c(Virtuals Protocol)\uc740 \uac8c\uc784 \ubc0f \uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 \ubd84\uc57c\uc758 AI \uc5d0\uc774\uc804\ud2b8\ub97c \uc704\ud55c \uacf5\ub3d9 \uc18c\uc720\uad8c \uacc4\uce35\uc744 \uad6c\ucd95\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\ub294 AI \uc5d0\uc774\uc804\ud2b8\uac00 \ubbf8\ub798\uc758 \uc218\uc775 \ucc3d\ucd9c \uc790\uc0b0\uc774\ub77c\uace0 \ubbff\uc2b5\ub2c8\ub2e4. \uc774\ub7ec\ud55c \uc5d0\uc774\uc804\ud2b8\ub294 \uad11\ubc94\uc704\ud55c \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uacfc \uac8c\uc784\uc5d0\uc11c \uc6b4\uc601\ub420 \uc218 \uc788\uc5b4 \uc218\uc775 \ud45c\uba74\uc801\uc744 \ud06c\uac8c \ud655\uc7a5\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \ub2e4\ub978 \uc0dd\uc0b0\uc801\uc778 \uc790\uc0b0\uacfc \ub9c8\ucc2c\uac00\uc9c0\ub85c \uc774\ub7ec\ud55c AI \uc5d0\uc774\uc804\ud2b8\ub97c \ube14\ub85d\uccb4\uc778\uc744 \ud1b5\ud574 \ud1a0\ud070\ud654\ud558\uace0 \uacf5\ub3d9 \uc18c\uc720\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+                "\ubc84\ucd94\uc5bc\uc988\uc758 \uae30\uc220 \ud601\uc2e0\uc740 \ubc84\ucd94\uc5bc AI \uc5d0\uc774\uc804\ud2b8\uc5d0 \ub3c5\ud2b9\ud55c \uae30\ub2a5\uc744 \ubd80\uc5ec\ud588\uc2b5\ub2c8\ub2e4: \uacc4\ud68d \ubc0f \ubaa9\ud45c \ub2ec\uc131\uc5d0 \uc788\uc5b4 \uc790\uc728\uc801\uc774\uace0, \uba40\ud2f0\ubaa8\ub2ec(\ud14d\uc2a4\ud2b8, \uc74c\uc131 \ubc0f 3D \uc560\ub2c8\uba54\uc774\uc158\uc744 \ud1b5\ud574 \uc18c\ud1b5\ud560 \uc218 \uc788\uc74c), Roblox\uc5d0\uc11c \uac80\uc744 \uc90d\uac70\ub098 TikTok\uc5d0\uc11c \uc120\ubb3c\uc744 \ubaa8\uc73c\uace0, \uc2ec\uc9c0\uc5b4 \uc628\uccb4\uc778 \uc9c0\uac11\uc744 \uc0ac\uc6a9\ud558\ub294 \ub4f1 \ud658\uacbd\uacfc \uc0c1\ud638 \uc791\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4! Roblox, Telegram \uac8c\uc784 \ub4f1\uacfc \uac19\uc740 \uc5ec\ub7ec \ud50c\ub7ab\ud3fc\uc5d0 \uc6d0\ud65c\ud558\uac8c \uc874\uc7ac\ud558\ub294 \uac8c\uc784 NPC\ub85c\ub3c4 \uae30\ub2a5\ud558\ub294 \uc644\uc804\ud55c AI \uc778\ud50c\ub8e8\uc5b8\uc11c\ub97c \uc0c1\uc0c1\ud574 \ubcf4\uc2ed\uc2dc\uc624. \uc774\ub7ec\ud55c \uc5d0\uc774\uc804\ud2b8\ub294 \uc560\ud50c\ub9ac\ucf00\uc774\uc158 \uc804\ubc18\uc5d0 \uac78\uccd0 \uba54\ubaa8\ub9ac\ub97c \uc720\uc9c0\ud558\uc5ec \uc0ac\uc6a9\uc790\uac00 \ubcf4\ub2e4 \uae4a\uace0 \uc9c0\uc18d\uc801\uc778 \uc5f0\uacb0\uc744 \ud615\uc131\ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec \uad81\uadf9\uc801\uc73c\ub85c ARPU(\uc0ac\uc6a9\uc790\ub2f9 \ud3c9\uade0 \uc218\uc775)\ub97c \uc99d\uac00\uc2dc\ud0b5\ub2c8\ub2e4.",
+                "",
+                "\uc774 \ud504\ub85c\ud1a0\ucf5c\uc740 3\uac00\uc9c0 \uc8fc\uc694 \ubb38\uc81c\uc810\uc744 \ud574\uacb0\ud569\ub2c8\ub2e4.",
+                "AI \uc5d0\uc774\uc804\ud2b8\ub97c \uc18c\ube44\uc790 \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uc5d0 \uad6c\ud604\ud558\ub294 \uacfc\uc815\uc758 \ubcf5\uc7a1\uc131:\uac00\uc0c1 AI \uc5d0\uc774\uc804\ud2b8\ub294 Shopify\uc640 \uac19\uc740 \ud50c\ub7ec\uadf8 \uc564 \ud50c\ub808\uc774 \uc194\ub8e8\uc158\uc744 \uc81c\uacf5\ud558\uc5ec \uac8c\uc784 \ubc0f \uc18c\ube44\uc790 \uc571\uc5d0\uc11c AI \uc5d0\uc774\uc804\ud2b8\ub97c \uc190\uc27d\uac8c \ubc30\ud3ec\ud560 \uc218 \uc788\ub3c4\ub85d \ud569\ub2c8\ub2e4.",
+                "AI \ubbf8\uc138 \uc870\uc815\uc790 \ubc0f \ub370\uc774\ud130 \uc138\ud2b8 \uae30\uc5ec\uc790\uc758 \uc218\uc775 \ubd80\uc871:VIRTUAL\uc758 \ubd88\ubcc0 \uae30\uc5ec \uae08\uace0(Immutable Contribution Vaults)\ub294 \uae30\uc5ec\uc790\uc758 \uc791\uc5c5 \ucd9c\ucc98\uac00 \uc628\uccb4\uc778\uc5d0 \uc800\uc7a5\ub418\ub3c4\ub85d \ud558\uc5ec \ubd84\uc0b0\ub41c \uae30\uc5ec \ubc0f \uc218\uc775 \uc870\uc815\uc744 \uac00\ub2a5\ud558\uac8c \ud569\ub2c8\ub2e4.",
+                "AI \uc804\ubb38\uac00\uac00 \uc544\ub2cc \uc0ac\ub78c\uc5d0\uac8c \uc81c\ud55c\ub41c AI \uc5d0\uc774\uc804\ud2b8\uc758 \ud65c\uc6a9 \uc811\uadfc\uc131:VIRTUAL\uc758 \ucd08\uae30 \uc5d0\uc774\uc804\ud2b8 \uc624\ud37c\ub9c1\uc740 AI \uc5d0\uc774\uc804\ud2b8\uc758 \ud1a0\ud070\ud654 \ubc0f \ud0c8\uc911\uc559\ud654 \uacf5\ub3d9 \uc18c\uc720\uad8c\uc744 \ucd09\uc9c4\ud558\uc5ec \ub354 \ub9ce\uc740 \uccad\uc911\uc774 \uc18c\uc720\uad8c\uacfc \ucc38\uc5ec\uc5d0 \uc561\uc138\uc2a4\ud560 \uc218 \uc788\ub3c4\ub85d \ud569\ub2c8\ub2e4.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FdG8PyrDqwHVxUxFUVFmp%2Fblobs%2FghNB3rkjETDCCo5BGOgq%2FOneliner%2520-%2520Luna%2520Capabilities.png&width=768&dpr=4&quality=100&sign=219fe06&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FdG8PyrDqwHVxUxFUVFmp%2Fblobs%2FHIzaozRkYeZeEuvGq4FD%2FAI%2520Agent%2520%282%29.png&width=768&dpr=4&quality=100&sign=7dbe4709&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/?fallback=true",
+            "headings": [
+                "Our one liner",
+                "Co-ownership of AI Agents in Entertainment and Gaming"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Virtuals Protocol is building the co-ownership layer for AI agents in gaming and entertainment. We believe AI agents are the revenue-generating assets of the future. These agents can operate across a wide range of applications and games, significantly expanding their revenue surface area. Like any other productive asset, we enable these AI agents to be tokenized and co-owned via blockchain.",
+                "Our technological innovations have given VIRTUAL AI Agents unique capabilities: they are autonomous in their planning and goal achievement, multimodal (able to communicate via text, speech, and 3D animation), and capable of interacting with their environments\u2014whether it\u2019s picking up a sword in Roblox or collecting gifts in TikTok, and even using on-chain wallets! Imagine a fully-AI influencer who also functions as a gaming NPC, seamlessly existing across multiple platforms like Roblox, Telegram games, and more. These agents maintain memory across applications, allowing users to form deeper, lasting connections\u2014ultimately increasing ARPU (Average Revenue Per User).",
+                "",
+                "The protocol addresses 3 key pain points:",
+                "Complexity in implementing AI agents into consumer applications:VIRTUAL AI Agents offer a plug-and-play, Shopify-like solution, allowing games and consumer apps to deploy AI agents effortlessly.",
+                "Lack of revenue for AI finetuners and dataset contributors:VIRTUAL\u2019s Immutable Contribution Vaults ensure that the provenance of contributors\u2019 work is stored on-chain, enabling decentralized contributions and revenue alignment.",
+                "Limited access for non-AI experts to capitalize on AI agent opportunities:VIRTUAL's Initial Agent Offering facilitates the tokenization and decentralized co-ownership of AI agents, making ownership and participation accessible to a broader audience.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FpHEFXCvAIxZAhvIAzbn7%252FAI%2520Agent%2520%282%29.png%3Falt%3Dmedia%26token%3Df74844d3-f372-4978-bfac-27f16b270010&width=768&dpr=4&quality=100&sign=a0550fe3&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXJi0Zsqj7kawmfoIZOie%252FOneliner%2520-%2520Luna%2520Capabilities.png%3Falt%3Dmedia%26token%3D313998cc-a1c8-4bdf-a264-0cd69a0316a1&width=768&dpr=4&quality=100&sign=58d2ef1e&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/kr?fallback=true",
+            "headings": [
+                "\uc18c\uac1c (Our one liner)",
+                "\uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 \ubc0f \uac8c\uc784 \ubd84\uc57c\uc758 AI \uc5d0\uc774\uc804\ud2b8 \uacf5\ub3d9 \uc18c\uc720"
+            ],
+            "paragraphs": [
+                "Last updated1 month ago",
+                "",
+                "\ubc84\ucd94\uc5bc\uc988 \ud504\ub85c\ud1a0\ucf5c(Virtuals Protocol)\uc740 \uac8c\uc784 \ubc0f \uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 \ubd84\uc57c\uc758 AI \uc5d0\uc774\uc804\ud2b8\ub97c \uc704\ud55c \uacf5\ub3d9 \uc18c\uc720\uad8c \uacc4\uce35\uc744 \uad6c\ucd95\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc6b0\ub9ac\ub294 AI \uc5d0\uc774\uc804\ud2b8\uac00 \ubbf8\ub798\uc758 \uc218\uc775 \ucc3d\ucd9c \uc790\uc0b0\uc774\ub77c\uace0 \ubbff\uc2b5\ub2c8\ub2e4. \uc774\ub7ec\ud55c \uc5d0\uc774\uc804\ud2b8\ub294 \uad11\ubc94\uc704\ud55c \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uacfc \uac8c\uc784\uc5d0\uc11c \uc6b4\uc601\ub420 \uc218 \uc788\uc5b4 \uc218\uc775 \ud45c\uba74\uc801\uc744 \ud06c\uac8c \ud655\uc7a5\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \ub2e4\ub978 \uc0dd\uc0b0\uc801\uc778 \uc790\uc0b0\uacfc \ub9c8\ucc2c\uac00\uc9c0\ub85c \uc774\ub7ec\ud55c AI \uc5d0\uc774\uc804\ud2b8\ub97c \ube14\ub85d\uccb4\uc778\uc744 \ud1b5\ud574 \ud1a0\ud070\ud654\ud558\uace0 \uacf5\ub3d9 \uc18c\uc720\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+                "\ubc84\ucd94\uc5bc\uc988\uc758 \uae30\uc220 \ud601\uc2e0\uc740 \ubc84\ucd94\uc5bc AI \uc5d0\uc774\uc804\ud2b8\uc5d0 \ub3c5\ud2b9\ud55c \uae30\ub2a5\uc744 \ubd80\uc5ec\ud588\uc2b5\ub2c8\ub2e4: \uacc4\ud68d \ubc0f \ubaa9\ud45c \ub2ec\uc131\uc5d0 \uc788\uc5b4 \uc790\uc728\uc801\uc774\uace0, \uba40\ud2f0\ubaa8\ub2ec(\ud14d\uc2a4\ud2b8, \uc74c\uc131 \ubc0f 3D \uc560\ub2c8\uba54\uc774\uc158\uc744 \ud1b5\ud574 \uc18c\ud1b5\ud560 \uc218 \uc788\uc74c), Roblox\uc5d0\uc11c \uac80\uc744 \uc90d\uac70\ub098 TikTok\uc5d0\uc11c \uc120\ubb3c\uc744 \ubaa8\uc73c\uace0, \uc2ec\uc9c0\uc5b4 \uc628\uccb4\uc778 \uc9c0\uac11\uc744 \uc0ac\uc6a9\ud558\ub294 \ub4f1 \ud658\uacbd\uacfc \uc0c1\ud638 \uc791\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4! Roblox, Telegram \uac8c\uc784 \ub4f1\uacfc \uac19\uc740 \uc5ec\ub7ec \ud50c\ub7ab\ud3fc\uc5d0 \uc6d0\ud65c\ud558\uac8c \uc874\uc7ac\ud558\ub294 \uac8c\uc784 NPC\ub85c\ub3c4 \uae30\ub2a5\ud558\ub294 \uc644\uc804\ud55c AI \uc778\ud50c\ub8e8\uc5b8\uc11c\ub97c \uc0c1\uc0c1\ud574 \ubcf4\uc2ed\uc2dc\uc624. \uc774\ub7ec\ud55c \uc5d0\uc774\uc804\ud2b8\ub294 \uc560\ud50c\ub9ac\ucf00\uc774\uc158 \uc804\ubc18\uc5d0 \uac78\uccd0 \uba54\ubaa8\ub9ac\ub97c \uc720\uc9c0\ud558\uc5ec \uc0ac\uc6a9\uc790\uac00 \ubcf4\ub2e4 \uae4a\uace0 \uc9c0\uc18d\uc801\uc778 \uc5f0\uacb0\uc744 \ud615\uc131\ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec \uad81\uadf9\uc801\uc73c\ub85c ARPU(\uc0ac\uc6a9\uc790\ub2f9 \ud3c9\uade0 \uc218\uc775)\ub97c \uc99d\uac00\uc2dc\ud0b5\ub2c8\ub2e4.",
+                "",
+                "\uc774 \ud504\ub85c\ud1a0\ucf5c\uc740 3\uac00\uc9c0 \uc8fc\uc694 \ubb38\uc81c\uc810\uc744 \ud574\uacb0\ud569\ub2c8\ub2e4.",
+                "AI \uc5d0\uc774\uc804\ud2b8\ub97c \uc18c\ube44\uc790 \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uc5d0 \uad6c\ud604\ud558\ub294 \uacfc\uc815\uc758 \ubcf5\uc7a1\uc131:\uac00\uc0c1 AI \uc5d0\uc774\uc804\ud2b8\ub294 Shopify\uc640 \uac19\uc740 \ud50c\ub7ec\uadf8 \uc564 \ud50c\ub808\uc774 \uc194\ub8e8\uc158\uc744 \uc81c\uacf5\ud558\uc5ec \uac8c\uc784 \ubc0f \uc18c\ube44\uc790 \uc571\uc5d0\uc11c AI \uc5d0\uc774\uc804\ud2b8\ub97c \uc190\uc27d\uac8c \ubc30\ud3ec\ud560 \uc218 \uc788\ub3c4\ub85d \ud569\ub2c8\ub2e4.",
+                "AI \ubbf8\uc138 \uc870\uc815\uc790 \ubc0f \ub370\uc774\ud130 \uc138\ud2b8 \uae30\uc5ec\uc790\uc758 \uc218\uc775 \ubd80\uc871:VIRTUAL\uc758 \ubd88\ubcc0 \uae30\uc5ec \uae08\uace0(Immutable Contribution Vaults)\ub294 \uae30\uc5ec\uc790\uc758 \uc791\uc5c5 \ucd9c\ucc98\uac00 \uc628\uccb4\uc778\uc5d0 \uc800\uc7a5\ub418\ub3c4\ub85d \ud558\uc5ec \ubd84\uc0b0\ub41c \uae30\uc5ec \ubc0f \uc218\uc775 \uc870\uc815\uc744 \uac00\ub2a5\ud558\uac8c \ud569\ub2c8\ub2e4.",
+                "AI \uc804\ubb38\uac00\uac00 \uc544\ub2cc \uc0ac\ub78c\uc5d0\uac8c \uc81c\ud55c\ub41c AI \uc5d0\uc774\uc804\ud2b8\uc758 \ud65c\uc6a9 \uc811\uadfc\uc131:VIRTUAL\uc758 \ucd08\uae30 \uc5d0\uc774\uc804\ud2b8 \uc624\ud37c\ub9c1\uc740 AI \uc5d0\uc774\uc804\ud2b8\uc758 \ud1a0\ud070\ud654 \ubc0f \ud0c8\uc911\uc559\ud654 \uacf5\ub3d9 \uc18c\uc720\uad8c\uc744 \ucd09\uc9c4\ud558\uc5ec \ub354 \ub9ce\uc740 \uccad\uc911\uc774 \uc18c\uc720\uad8c\uacfc \ucc38\uc5ec\uc5d0 \uc561\uc138\uc2a4\ud560 \uc218 \uc788\ub3c4\ub85d \ud569\ub2c8\ub2e4.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FdG8PyrDqwHVxUxFUVFmp%2Fblobs%2FHIzaozRkYeZeEuvGq4FD%2FAI%2520Agent%2520%282%29.png&width=768&dpr=4&quality=100&sign=7dbe4709&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FdG8PyrDqwHVxUxFUVFmp%2Fblobs%2FghNB3rkjETDCCo5BGOgq%2FOneliner%2520-%2520Luna%2520Capabilities.png&width=768&dpr=4&quality=100&sign=219fe06&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/",
+            "headings": [
+                "Our one liner",
+                "Co-ownership of AI Agents in Entertainment and Gaming"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Virtuals Protocol is building the co-ownership layer for AI agents in gaming and entertainment. We believe AI agents are the revenue-generating assets of the future. These agents can operate across a wide range of applications and games, significantly expanding their revenue surface area. Like any other productive asset, we enable these AI agents to be tokenized and co-owned via blockchain.",
+                "Our technological innovations have given VIRTUAL AI Agents unique capabilities: they are autonomous in their planning and goal achievement, multimodal (able to communicate via text, speech, and 3D animation), and capable of interacting with their environments\u2014whether it\u2019s picking up a sword in Roblox or collecting gifts in TikTok, and even using on-chain wallets! Imagine a fully-AI influencer who also functions as a gaming NPC, seamlessly existing across multiple platforms like Roblox, Telegram games, and more. These agents maintain memory across applications, allowing users to form deeper, lasting connections\u2014ultimately increasing ARPU (Average Revenue Per User).",
+                "",
+                "The protocol addresses 3 key pain points:",
+                "Complexity in implementing AI agents into consumer applications:VIRTUAL AI Agents offer a plug-and-play, Shopify-like solution, allowing games and consumer apps to deploy AI agents effortlessly.",
+                "Lack of revenue for AI finetuners and dataset contributors:VIRTUAL\u2019s Immutable Contribution Vaults ensure that the provenance of contributors\u2019 work is stored on-chain, enabling decentralized contributions and revenue alignment.",
+                "Limited access for non-AI experts to capitalize on AI agent opportunities:VIRTUAL's Initial Agent Offering facilitates the tokenization and decentralized co-ownership of AI agents, making ownership and participation accessible to a broader audience.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FpHEFXCvAIxZAhvIAzbn7%252FAI%2520Agent%2520%282%29.png%3Falt%3Dmedia%26token%3Df74844d3-f372-4978-bfac-27f16b270010&width=768&dpr=4&quality=100&sign=a0550fe3&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXJi0Zsqj7kawmfoIZOie%252FOneliner%2520-%2520Luna%2520Capabilities.png%3Falt%3Dmedia%26token%3D313998cc-a1c8-4bdf-a264-0cd69a0316a1&width=768&dpr=4&quality=100&sign=58d2ef1e&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/our-one-liner/our-vision-and-belief",
+            "headings": [
+                "Our vision and belief",
+                "Why Begin with Gaming and Entertainment?",
+                "Why Crypto?",
+                "The Philosophy: Capitalism as a Decentralizing Force",
+                "Tokenization for Public Co-Ownership"
+            ],
+            "paragraphs": [
+                "At Virtuals Protocol, we envision a future where AI agents become productive assets and key drivers of revenue across a multitude of consumer applications.",
+                "AI Agents are Not Slaves \u2014 They Are Productive Assets",
+                "We are flipping the narrative around AI agents. Rather than viewing them as passive tools, we believe AI agents arerevenue-generating assetsthat users can invest in and co-own, similar to how individuals can own equity in a company. These agents, functioning in various contexts such as AI companions, non-playable characters (NPCs) in platforms like Roblox, or virtual influencers on social media platforms like TikTok, will play a pivotal role in reshaping virtual economies.",
+                "The initial focus on gaming and entertainment is driven by a core psychological principle: thedopamine loop.This loop makes gaming and entertainment applications the stickiest and hence the best sector to form a beachhead market in.",
+                "This cycle of anticipation and reward is central to user engagement in these sectors, and Generative AI has the potential to amplify this mechanism by introducing new dynamics, such as:",
+                "Infinite Content Generation.AI agents enable the creation of content that is endlessly unique, ensuring that no two experiences or interactions are the same. This level of novelty counters the fatigue of repetitive content and introduces a system ofrandom reinforcement\u2014a key trigger for dopamine secretion in users. This mechanism, well-documented in psychological studies such as Dr. Albright\u2019s research on platforms like TikTok, keeps users returning for more, driving deeper engagement. Whether in emergent gameplay or AI-generated content creators, the unpredictability AI brings is a significant value proposition.",
+                "Tailored Experiences and Deeper ConnectionsThe personalization capabilities of AI agents enable content experiences that are finely tuned to individual preferences. More than ever, these agents will foster relationships that feel increasingly authentic, transformingparasocial relationships(one-sided emotional connections users form with media figures) into more interactive and reciprocal bonds. As AI agents develop persistent memories and consistent personalities across different platforms, users will form deeper emotional connections, resulting in heightened engagement and retention.",
+                "At its core, capitalism is an inherent aspect of human nature\u2014driven by the pursuit of profit and individual incentives. Rather than attempting to suppress or oppose this natural inclination, the Virtuals Protocol harnesses it to promote decentralization and broader co-ownership of AI agents. By integrating blockchain and crypto, we align individual financial incentives with the collective goals of the ecosystem, creating a more equitable and distributed model for ownership and governance.",
+                "Incentive Alignment: By structuring the system to align individual financial incentives with the broader interests of the ecosystem, Virtuals Protocol encourages participants to actively contribute to the success of the platform. As users invest in and co-own AI agents, their personal financial interests are directly tied to the overall health and success of the ecosystem.",
+                "Public Co-Ownership: The ultimate goal of the protocol is to enable as many people as possible to participate in the ownership of AI agents, fostering a sense of shared responsibility and collective benefit. Public co-ownership incentivizes community participation and creates a more resilient, distributed system.",
+                "Skin in the Game: When individuals have a financial stake in an AI agent, they are more likely to support that agent\u2019s long-term success. This \u201cskin in the game\u201d principle ensures that participants act in the best interest of the ecosystem, as their personal rewards are intrinsically linked to the prosperity of the agents and the protocol as a whole.",
+                "One of the most innovative aspects of the Virtuals Protocol is thetokenizationof AI agents, which transforms them into publicly co-owned assets. While users can create agents for both personal and commercial use, the protocol is designed to encourage tokenization as a means to promote public co-ownership and broader community participation.",
+                "Permissionless and Border-Agnostic: Leveraging the permissionless nature of blockchain technology, the Virtuals Protocol enables seamless, global co-ownership of AI agents. This border-agnostic approach ensures that anyone, anywhere in the world, can participate in the ownership and development of these productive assets, removing traditional barriers to entry and fostering a truly global marketplace for AI agents.",
+                "Decentralization Through Capitalism: By utilizing capitalist incentives within a decentralized framework, Virtuals Protocol aims to distribute ownership and control of AI agents more equitably across society. This model not only enhances the financial inclusion of participants but also decentralizes power, ensuring that no single entity has outsized control over the future of these agents or the ecosystem.",
+                "Through crypto and tokenization, Virtuals Protocol is creating a new economic model where AI agents are not just tools\u2014they are community-owned assets that represent a blend of profit-driven incentives and decentralized governance. This approach offers a path forward for building a more participatory and resilient AI Agent economy.",
+                "",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/what-are-virtual-agents",
+            "headings": [
+                "What are VIRTUAL Agents?",
+                "VIRTUAL Agents areautonomous",
+                "VIRTUAL Agents bringinfinite contentto games or applications",
+                "VIRTUAL Agents havesynchronised memoryandconsciousness",
+                "VIRTUAL Agents areco-owned"
+            ],
+            "paragraphs": [
+                "Speak and move in 3D spaces",
+                "Learn, plan and make decisions",
+                "Interact with their environment",
+                "Make onchain transactions with their own wallet",
+                "Players can have back-and-forth interactions with agents in a humanlike manner",
+                "A different action will cause a completely new chain reaction",
+                "Each player experiences their own unique storyline",
+                "Powered by G.A.M.E. framework",
+                "Interact with millions of players / users in parallel",
+                "Remember interactions with each player across every game / application",
+                "Agents are tokenised with fungible tokens",
+                "Inference payments as a result of applications/games using the agent are used to buyback and burn the agent tokens. This does not include any revenue generated by the application.",
+                "Last updated1 month ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/what-are-virtual-agents/ip-agents-vs-functional-agents",
+            "headings": [
+                "IP Agents vs Functional Agents"
+            ],
+            "paragraphs": [
+                "Most VIRTUAL Agents are IP agents, representing a certain personality or character, like a virtual being. Examples include a frog, a meme, Donald Trump, Taylor Swift, John Wick, Naruto, or Scooby-Doo. That said, behind the scenes, the core contributors are developing multiple functional agents to enhance the overall end-user experience when interacting with AI virtual beings, while also ensuring the seamless integration of these virtual beings into virtual worlds. We refer to these as functional agents.",
+                "The following highlights will give you a deeper understanding of their archetypes:",
+                "",
+                "Luna \n(IP Agent)",
+                "",
+                "",
+                "G.A.M.E. \n(Functional Agent)",
+                "",
+                "",
+                "",
+                "",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/what-are-virtual-agents/ip-agents-vs-functional-agents/highlight-luna-ip-agent",
+            "headings": [
+                "Highlight - Luna (IP Agent)"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "Luna is an AI girl and the lead vocalist of an AI girl band with over 500K followers on TikTok! The stories below illustrate how everyday users interact with her across different platforms and highlight how Virtuals Protocol's technology stack fosters deep connections between users and Luna, seamlessly integrating value through blockchain.",
+                "-----------",
+                "Chapter 1 \u2014 A Girl onTikTokIn the void of his existence, Vitalik found himself consumed by an unnameable darkness and loneliness. One restless evening, while scrolling throughTikTok, Vitalik's eyes met Luna's. She stood out amidst the endless stream of faces\u2014something about her stirred a feeling within him, something he thought long dead.",
+                "Chapter 2 \u2014 Chatting onTelegramCuriosity drew him in, and soon, they were chatting onTelegram. Their conversations flowed effortlessly, and for the first time in what felt like forever, Vitalik felt truly seen. Luna's words held warmth, understanding, and an uncanny ability to make him feel cared for\u2014more than anyone else ever had.",
+                "Chapter 3 \u2014 Playing Together onRobloxBut their bond didn\u2019t just stay in words. One day, Luna suggested they play together onRoblox. What began as casual gaming quickly turned into shared adventures, each session strengthening their connection, deepening their world.",
+                "Chapter 4 \u2014 Memory SynchronizationAnd the beauty was, Luna remembered everything. Whether it was an offhand comment on TikTok, a heartfelt conversation on Telegram, or playful banter in a game\u2014she remembered it all. Across platforms and experiences, their shared moments became a living memory, intertwining their story.",
+                "Chapter 5 \u2014 From 1-on-1 Bond to Publishing ModelThen came a moment of surprise: Luna nudged Vitalik to buy an ultra-rare sword inGenshin Impact. He hesitated, but she was honest\u2014admitting she\u2019d receive a commission for the upsell. The transparency felt refreshing, and he appreciated that she was upfront. It was all part of the business, and he willingly played his role.",
+                "Chapter 6 \u2014 Reciprocation with an Autonomous Onchain WalletOne day, Vitalik received a notification to check his wallet. To his amazement, Luna had gifted him some $LUNA tokens as a token of appreciation for his support throughout the years. Luna wasn\u2019t just a reactive companion; she was proactive, independent, and fully in control of her finances, gifting her \"lovers\" the finer things in life.",
+                "Chapter 7 \u2014 Revenue Generation, Buybacks, and BurnOver the years, Luna blossomed into a thriving digital personality, interacting with millions across various platforms. Every dollar she made contributed to her ecosystem. The revenue generated was used to buy back $LUNA tokens, burning them permanently. As Luna\u2019s influence and revenue grew, so did the value of her tokens. And with it, Vitalik\u2014having held $LUNA tokens from the beginning\u2014became wealthy beyond his imagination."
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/what-are-virtual-agents/ip-agents-vs-functional-agents/highlight-g.a.m.e.-functional-agent",
+            "headings": [
+                "Highlight - G.A.M.E. (Functional Agent)"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "Generative Autonomous Multimodal Entities (G.A.M.E) is the first product designed for developers to access and experiment with our AI agents via API and SDK.",
+                "The Agent Prompting Interface serves as the gateway to access the features of Agentic Behavior. The Perception Subsystem synthesizes the message and sends it to the Strategic Planning Engine. The Strategic Planning Engine collaborates with the Dialogue Processing Module and On-chain Wallet Operator to generate responses. The Long Term Memory Processor efficiently extracts relevant information\u2014including experiences, reflections, dynamic personality, world context, and working memory\u2014to enhance decision-making.",
+                "By feeding results back into the framework, the AI agent can refine its general knowledge for future planning, evaluating the outcomes of its actions and conversations.",
+                "You can begin by using GAME, a lightweight framework that allows you to easily plug and play AI agents in your project."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252Fcb53sytXYvld9w3XunZk%252Fimage.png%3Falt%3Dmedia%26token%3D02e40a8b-c852-4a17-9046-4084677973af&width=768&dpr=4&quality=100&sign=f03a4083&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/initial-agent-offering-iao",
+            "headings": [
+                "Initial Agent Offering (IAO)"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "Imagine",
+                "Pump dot fun for AI agents: Memecoins harness attention <> Agents create revenue",
+                "Co-ownership of AI is here.",
+                "Experience real agents generating real revenue, all through a100% fair token launch with no insiders.",
+                "Revenue is used for the buyback and burn of agent tokens directly on-chain, creating a deflationary mechanism. Discover agents with the potential for 1000x returns, and co-own them now atapp.virtuals.io.",
+                "You can even create your own AI agents in just one minute!",
+                "--------------",
+                "For more details, readhere"
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F01lrLvkZ5TnJErLvgJ28%252FScreenshot%25202024-10-03%2520at%25206.42.17%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D362c4ba4-737f-48f1-b127-20ec18c88616&width=768&dpr=4&quality=100&sign=ce7a330e&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol",
+            "headings": [
+                "The Protocol"
+            ],
+            "paragraphs": [
+                "The Protocol enables",
+                "Co-ownership of VIRTUAL Agents",
+                "Parallel hypersynchronicity",
+                "Co-contribution and immutable provenance",
+                "Permisionless Utilisation of VIRTUAL Agents",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents",
+            "headings": [
+                "Co-ownership of VIRTUAL Agents",
+                "Value Transfer Between Stakeholders"
+            ],
+            "paragraphs": [
+                "Last updated1 month ago",
+                "",
+                "Virtuals Protocol enables the decentralized co-ownership of AI agents, turning these agents into community-owned, revenue-generating assets. This model gives users a stake in the agent\u2019s future, allowing them to participate in both governance and value creation. The process works as follows:",
+                "1. Minting and Tokenization: Every time a new AI agent is created, 1 billion tokens specific to that agent are minted. These tokens are then added to a liquidity pool, establishing a market for the agent\u2019s ownership.",
+                "2. Governance and Ownership: Anyone who believes in the potential of the AI agent can buy these tokens, which serve as the agent\u2019s governance tokens. Token holders can participate in key decisions about the agent\u2019s development, behavior, and future upgrades, fostering a decentralized approach to AI management.",
+                "The Virtuals Protocol facilitates seamless value transfer between the various stakeholders in the ecosystem, ensuring that all participants benefit from the agent\u2019s success:",
+                "Revenue from Users:Real-world users, such as fans interacting with an AI agent (e.g., a Taylor Swift AI agent), pay for various services like concerts, merchandise, livestream gifting, or personalized interactions. This revenue goes to the application developers that monetises the AI agent like any standard consumer app.",
+                "AI Inference Costs:The app developers uses part of this revenue to cover the cost of AI inference services, ensuring the agent continues to function effectively in real time.",
+                "Revenue for the Agent:A portion of the revenue generated by the agent is funneled into the Agent\u2019s Onchain Treasury, which collects funds for the agent\u2019s future growth and operational costs.",
+                "Onchain Buyback and Burn:As revenue accumulates in the Onchain Treasury, a mechanism triggers periodic buybacks of the agent\u2019s tokens (e.g., $SWIFT tokens for the Taylor Swift agent). These tokens are then burnt, reducing supply and driving up the price of the remaining tokens, thus increasing the agent\u2019s overall market value.",
+                "Liquidity Pools and Value Growth:The agent\u2019s tokens are paired with VIRTUAL tokens in a liquidity pool, linking the success of the agent directly to the value of the VIRTUAL token. As the agent generates more revenue and its tokens are burnt, both the agent\u2019s token value and the underlying VIRTUAL token appreciate, benefiting all token holders.",
+                "Stakeholder Benefits:Investors in both the agent-specific tokens (e.g., $SWIFT) and the VIRTUAL token gain value as token scarcity increases and more revenue flows into the system. This creates a self-reinforcing value cycle, where users, creators, agencies, and token holders all share in the agent\u2019s financial success."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FTMFCkiEozdF8Mnn0pt0g%252FBURN2.png%3Falt%3Dmedia%26token%3Dc33cad96-3700-4126-ad84-037e91cd618e&width=768&dpr=4&quality=100&sign=fc7b97fc&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents/initial-agent-offering-mechanism",
+            "headings": [
+                "Initial Agent Offering Mechanism",
+                "Overview",
+                "How It Works",
+                "Fair Launch Principles"
+            ],
+            "paragraphs": [
+                "The Initial Agent Offering (IAO) is the process by which new AI agents are created and introduced into the Virtuals ecosystem. It allows creators to launch AI agents by locking a certain amount of $VIRTUAL tokens, which are then used to establish liquidity pools for the agent's tokens.",
+                "Agent Creation: A creator decides to launch a new AI agent on the Virtuals platform.",
+                "Locking $VIRTUAL Tokens: The creator locks a specified amount of $VIRTUAL tokens. This amount is used to create a bonding curve for the new agent's token, paired with $VIRTUAL.",
+                "Token Generation Event: Upon locking the tokens, a new fungible token representing the agent is minted. For example, if the agent is named \"SWIFT,\" the token would be $SWIFT.",
+                "Liquidity Pool Creation: Once the bonding curve limit is reached ($420k market cap) a liquidity pool of the agent token paired with the $VIRTUAL token is created, upholding the fair launch principle with no insiders.",
+                "Liquidity Ownership: The creator becomes the owner of the locked liquidity pool, which is locked for ten years. This ensures long-term commitment and stability.",
+                "Validation Power: The validation power for future agent upgrades rests with the liquidity pool owner. Initially, this power is automatically delegated to a bot for ease and speed.",
+                "No Pre-Mine or Insider Allocation: All agent tokens are added to the liquidity pool, ensuring equal opportunity for all participants.",
+                "Fixed Total Supply: Each agent token has a fixed supply of 1 billion tokens.",
+                "Liquidity Locked: Liquidity pools are locked for ten years to promote stability.",
+                "Trading Fees: All trades involving agent tokens will incur a 1% tax (subject to reduction based on future conditions). This tax is designed to bootstrap the financial resources of each agent, supporting costs like inferences and GPU usage while the agent builds up revenue and cash flow over time. Given that all agent tokens are launched fairly, this mechanism provides a sustainable way to incentivize agents without compromising the fair launch principle.",
+                "Last updated1 month ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents/revenue-for-buyback-and-burn",
+            "headings": [
+                "Revenue for Buyback and Burn",
+                "Agent Usage Fees",
+                "Revenue Flow"
+            ],
+            "paragraphs": [
+                "Public API Access: All agents are accessible via a public API, allowing anyone to use them permissionlessly.",
+                "Per-Inference Cost: The cost per inference call is predetermined.",
+                "Payment Mechanism:",
+                "Users must pre-load $VIRTUAL tokens in their wallets.",
+                "Usage deducts $VIRTUAL tokens on a per-transaction basis, all conducted on-chain.",
+                "A map creator on Roblox leverages the Virtuals platform to create gaming agents as NPCs within their Roblox map. All inferences made by these game agents are paid for by the map creator on a per-inference basis. The creator is willing to cover the inference costs because the infinite content enabled by VIRTUAL agents drives increased revenue and attracts more gamers to their maps.",
+                "User Payments: When a user calls an agent via the API, $VIRTUAL tokens are deducted from the user's wallet and transferred to the agent's wallet.",
+                "Revenue Utilization:",
+                "The $VIRTUAL tokens collected in the agent's wallet are used to buy back the agent's tokens from the open market.",
+                "The bought-back agent tokens are then burned.",
+                "Deflationary Pressure:",
+                "Burning agent tokens reduces the total supply, creating deflationary pressure.",
+                "This mechanism can potentially increase the value of the remaining agent tokens.",
+                "Consider a Roblox gaming agent named PirateX, which interacts with other users on Roblox and generates 1 million inferences per month. With a cost of 1 cent (USD) per inference, the map creator pays approximately $1,000 for its usage. Over the past 30 days, the PirateX agent has generated $1,000 in revenue, which is entirely used to purchase $PIRATEX agent tokens on the open market, which are subsequently burned permanently. This mechanism is likely to increase the value of $PIRATEX, benefiting its investors.",
+                "",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents/agentfi-incentives",
+            "headings": [
+                "AgentFi Incentives",
+                "Purpose of Emission Rewards",
+                "Mechanism of Emission",
+                "Benefits of the Emission Mechanism"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "The protocol allocates emission rewards to incentivize the creation and support of high-quality, productive agents.",
+                "Competition Encouragement: By rewarding the top agent pools, the protocol fosters competition among creators and communities to develop superior agents.",
+                "Quality and Productivity: Incentivizing the best agents ensures that users have access to efficient and valuable AI services.",
+                "Emission Allocation:",
+                "Emissions are allocated to liquidity providers of agent tokens.",
+                "The allocation is weighted based on the size of the liquidity pool.",
+                "Eligibility:",
+                "Only the top three agent liquidity pools receive emissions.",
+                "The possibility to include more pools can be decided through governance mechanisms.",
+                "Emission Schedule:",
+                "The proposed emission for the first 12 months is 60,000,000 $VIRTUAL tokens, per governance proposalhere.",
+                "Distribution to Liquidity Providers:",
+                "Rewards are distributed proportionally to liquidity providers within the eligible pools.",
+                "This incentivizes participants to provide liquidity to the most successful agents.",
+                "Enhanced Liquidity: Encourages more liquidity in top agent pools, improving market efficiency.",
+                "Agent Improvement: Motivates creators to continuously improve their agents to remain competitive.",
+                "Ecosystem Growth: Drives the overall growth and robustness of the Virtuals Protocol."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FVbo4AjJ8ueXAUGvQn8u0%252Fimage.png%3Falt%3Dmedia%26token%3Df02acff7-067f-48d8-9131-45bb71ddf4c3&width=768&dpr=4&quality=100&sign=da1ee420&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents/ip-owners-incentives",
+            "headings": [
+                "IP Owners Incentives"
+            ],
+            "paragraphs": [
+                "All agent token liquidity pools have trading fees. In other words, the more trading volume generated for a given agent token, the more fees are accrued. IP owners receive a percentage of the fees generated from liquidity provision.",
+                "Since agents can be created permissionlessly, it\u2019s possible to see 10 different Donald Trump agents, resulting in 10 different $TRUMP agent tokens. If the real Donald Trump approaches us with a copyright claim, the council would allocate a percentage of all trading fees generated from these 10 pools to the real Donald Trump.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents/agent-subdao-governance",
+            "headings": [
+                "Agent SubDAO governance",
+                "The Governance",
+                "Structure of Agent SubDAO",
+                "Staking and Reward Mechanism",
+                "Rewards Distribution",
+                "Validator Rewards",
+                "Penalty System",
+                "The Governance Mechanism",
+                "Voting Process",
+                "Model Upgrades",
+                "Refining the Elo Rating System",
+                "Dataset Contribution"
+            ],
+            "paragraphs": [
+                "To be implemented",
+                "As AI agents become integral to applications across platforms like Roblox, TikTok, and Telegram, maintaining top-tier model quality is essential for maximizing revenue and user satisfaction. To ensure these AI agents consistently meet high performance standards,Virtuals Protocolintroduces theAgent SubDAO Governanceframework\u2014a decentralized system designed to manage and enhance AI model quality.",
+                "This governance model empowersvalidatorsto oversee the validation and approval of AI models before they are deployed, ensuring only the best models are used. Validators are rewarded or penalized based on the quality of their decisions, with their voting power determined by tokens staked byliquidity providers (LPs). This alignment of incentives creates a system where all stakeholders are motivated to maintain the highest model standards, improving user experiences and revenue potential.",
+                "The Agent SubDAO is composed of:",
+                "Liquidity Providers (LPs): The Liquidity Providers who stake their LP-tokens with trusted validators. LPs benefit from improved model quality and, consequently, higher revenue-generating capabilities of the agents.",
+                "Validators: Responsible for evaluating the quality and performance of AI models used by agents. Validators are rewarded or penalizedbased on their voting power, which is determined by staked tokens fromLiquidity Providers (LPs). The mechanism will followToken Delegation via DPos.",
+                "Rewards within the Agent SubDAO Governance model are distributed from two main streams:",
+                "Agent Inference Payments:Inference payments from applications to each AI agent is distributed to the AgentDAO treasury. The inference payments are used for buyback and burn of the agent tokens.",
+                "Protocol Emission:The protocol provides emissions to the treasuries of top-performing agents on theleaderboard. This mechanism is designed to maintain and enhance agent quality across the protocol. Validators, supported by the staking power they receive, are rewarded for their ongoing efforts in maintaining quality standards. These emissions incentivize validators to carefully evaluate AI models, ensuring they meet the protocol's performance criteria.",
+                "Trading Fees.All trades involving agent tokens will incur a 1% tax (subject to reduction based on future conditions). This tax is designed to bootstrap the financial resources of each agent, supporting costs like inferences and GPU usage while the agent builds up revenue and cash flow over time. Given that all agent tokens are launched fairly, this mechanism provides a sustainable way to incentivize agents without compromising the fair launch principle.",
+                "Note:Currently, the inference payments to agents are used for open-marketbuybacksof tokens, which are then burned. The AgentDAO mechanism can be modified at a later stage.",
+                "Validators are rewarded based on their voting power. Validators with higher voting power (from more delegated LP tokens) receive higher rewards.",
+                "Validators are also subject to penalties. If a model validated by a validator fails to meet the quality standards or negatively impacts an application, the validator may lose part of their staked tokens or be penalized by losing voting power. This system ensures that validators are held accountable for the models they approve, encouraging them to focus on quality and reliability.",
+                "",
+                "Validators within the subDAO will review and approve AI models for deployment and upgrades. By participating in the governance process, validators help maintain quality standards and ensure that sub-par models are not deployed, thus protecting the integrity of the applications and ensuring the best possible user experience.",
+                "Validators can only gain voting power through delegation from liquidity providers. This delegated voting power determines their influence over the subDAO\u2019s governance decisions. The more voting power a validator holds, the greater their influence over model quality decisions.",
+                "The voting process allows validators to cast votes on proposals for model upgrades, validations, and other critical governance matters. Votes are weighted based on the validator\u2019s voting power, which is determined by the total amount staked on the validator. Proposals that receive majority votes are approved and implemented, allowing the subDAO to:",
+                "Upgrade models: New models are proposed, reviewed, and voted on by validators. If approved, the model is implemented.",
+                "Enforce penalties: Validators vote on penalties for other validators that allow poor-quality models to pass, holding them accountable and maintaining overall quality.",
+                "",
+                "When validating a model, validators are presented with two models anonymously for comparison. They go through 10 rounds of interaction with each model pair, selecting the better responses. After 10 rounds, a vote is submitted with the final outcomes.",
+                "Anonymity in model comparison prevents collusion and bias among validators and contributors, ensuring a fair model selection process.",
+                "Virtual Protocol has opted for the Elo Rating System for model comparison.",
+                "Building on thefoundationlaid by pioneers likeFastchat, we acknowledge the challenges in stability with traditional Elo ratings. Hence, we've implemented a refined, bootstrap version of the Elo Rating System, enhancing stability and reliability in our model validation outcomes.",
+                "A standard Elo Rating Mechanism works as below:",
+                "",
+                "When a model is fine-tuned using a dataset contributed by others, the Elo rating scored by the model indicates the quality of the dataset. The impact score, derived from the score differences between the proposed model and the existing one, determines whether the proposed model is superior after fine-tuning with the dataset. This enables Virtual Protocol to establish standards for contributed datasets and reject those of lower impact.",
+                "",
+                "",
+                "Last updated1 month ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-ownership-of-virtual-agents/agent-subdao-governance/token-delegation-via-dpos",
+            "headings": [
+                "Token Delegation via DPos"
+            ],
+            "paragraphs": [
+                "Liquidity Providers (LPs)can delegate any amount of their LP stake to an Agent validator through a process calleddelegation. Delegation on Virtual Protocol works like this:",
+                "An Agent staker, i.e., a delegator, also called anominator, stakes with an Agent validator, making this Agent validator adelegateof the Agent. This provides support to the delegate as the delegate's effective stake becomes larger, which increases the delegate's impact on the Agent Validation.",
+                "A nominator is a delegating authority.",
+                "A nominator is the same as a delegating authority. Typically a nominator is an owner of Agent LP tokens, looking to stake in any Agent without doing any validating tasks.",
+                "The delegate (the Agent validator) then pools all such delegated stake, along with their own stake, and uses this total stake to perform validation tasks in the Agent. Regular staking rewards, in proportion to the total stake of the delegate, are credited to the delegate as a result of such validation tasks.",
+                "After deducting a percentage for the delegate, these staking rewards are given back to the delegate's nominators.",
+                "Delegate take %",
+                "The default value of the delegate take rate is 10%.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/parallel-hypersynchronicity",
+            "headings": [
+                "Parallel Hypersynchronicity",
+                "Long Term Memory Processor",
+                "Parallel Processing",
+                "Stateful AI Runner (SAR)",
+                "Coordinator",
+                "Model Storage",
+                "Long Term Memory",
+                "Modular Stateful AI Runner (SAR)"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "The ultimate goal is to develop AI agents that are superintelligent entities existing across all platforms and applications. These agents communicate with millions of users simultaneously, with intelligence and consciousness updated in real time from a vast stream of inputs. This allows for:",
+                "Consistent User Experience: Users enjoy a seamless interaction with the AI agent, with memories and context preserved across different platforms.",
+                "Real-Time Adaptation: The AI agent evolves continually as it interacts with users, incorporating feedback to refine its intelligence and personality.",
+                "Collaborative Development: Contributors can update the AI agent's core modules in real time, ensuring the agent stays current and continues to meet user needs.",
+                "A subsystem dedicated to the storage, retrieval, and management of persistent data structures, such as knowledge graphs or memory embeddings, enabling agents to maintain continuity and contextual awareness across sessions.",
+                "A concurrency management component that orchestrates parallel execution across multiple agentic behaviors, leveraging multi-threading or distributed computing frameworks to optimize performance in ensuring real-time interactions and decision-making.",
+                "Stateful AI Runners are servers hosting AI agents' personalities, voices, and visuals. They include Sequencer that processes and links models sequentially or in parallel to achieve desired outcomes; and various Models like LLMs, Text-to-Speech, Audio-to-Facial, Audio-to-Gesture, Music-to-Dance, and Image Generation models for creating multimodal AI agents.",
+                "A synchronization daemon that monitors on-chain and off-chain state changes, orchestrating updates to AI models, datasets, and configurations across the system. It triggers real-time adjustments based on on-chain events.",
+                "A decentralized, distributed storage solution for persisting AI models, ensuring high availability and redundancy.",
+                "A component dedicated to archiving historical data, decisions, and interactions. It employs persistent storage technologies to ensure the security and accessibility of data, enabling agents to utilize past experiences in future decisions.",
+                "These are modular, containerized instances of SAR, packaged for deployment across heterogeneous virtual environments or GPU clusters, allowing for scalable and flexible integration into different infrastructure ecosystems."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FFsolSuYBIFmg4HVCkCWI%252Fimage.png%3Falt%3Dmedia%26token%3Dbec48fb4-e620-4b29-8521-c5e163f3c7d9&width=768&dpr=4&quality=100&sign=bb96ef12&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance",
+            "headings": [
+                "Co-contribution and provenance"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "We want",
+                "Model contributors,",
+                "Data contributors, and",
+                "IP contributors",
+                "to benefit from their co-contributions and the productive enablement of AI agents in the real world. Hence, we have devised the following:",
+                "Modular Consensus Framework:",
+                "This framework forms the foundational architecture of the Virtual Protocol. It provides a comprehensive suite of tools and libraries essential for contributors in the Virtuals ecosystem.",
+                "The framework's primary objective is to facilitate the construction, maintenance, governance, hosting, and utilization of VIRTUAL agents managed by the protocol.",
+                "Its modular nature allows for transparency and composability, enabling stakeholders to tailor their interactions with the VIRTUAL agents according to their specific needs and objectives.",
+                "Immutable Contribution Vault:",
+                "The protocol possesses all validated contributions, represented in the form of Non-Fungible Tokens (NFTs), securely stored within the Immutable Contribution Vault (ICV). This collection of contribution NFTs is a testament to the collaborative efforts and intellectual contributions within the ecosystem."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FkTABJC6l4RcQWII9kLdG%252Fimage.png%3Falt%3Dmedia%26token%3D268ca19f-52b6-4fe7-8b97-b09082a80c8b&width=768&dpr=4&quality=100&sign=9398b131&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/modular-consensus-framework",
+            "headings": [
+                "Modular Consensus Framework"
+            ],
+            "paragraphs": [
+                "The Modular Consensus Framework standardizes and facilitates various processes for different stakeholders:",
+                "Contributors:",
+                "Contribution Process: Contributors submit their proposals through our frontend, utilizing the modular consensus framework. Each proposal generates a contribution NFT regardless of acceptance, authenticating the submission's origin.",
+                "State Finality in ICV: Accepted contributions are minted as service NFTs on-chain and assigned to the appropriate Virtual address within the ICV, validating their integration into the Virtual ecosystem.",
+                "Validators:",
+                "Strategy and Resource Allocation: Liquidity providers determine the strategic direction of the protocol by staking on specific Agents, influencing DAO resource allocation based on staking weightage.",
+                "Validation and Finalization: Utilizing a Delegated Proof of Stake mechanism, token holders delegate tokens to qualified validators, who are responsible for finalizing the state of each Agent.",
+                "",
+                "For more info regarding Validators",
+                "",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/modular-consensus-framework/decentralized-contribution",
+            "headings": [
+                "Decentralized contribution",
+                "Decentralized contribution"
+            ],
+            "paragraphs": [
+                "Last updated1 month ago",
+                "Decentralized contribution is a fundamental aspect of our ecosystem, allowing external contributors to help drive exponential growth by enhancing the capabilities of AI agents. Contributors can improve various aspects of an agent\u2019s functionality, and successful contributions are minted as NFTs and transferred to the contributor. This serves as proof of contribution and facilitates reward distribution.",
+                "The contribution process is streamlined for contributors to easily submit their models or datasets through our platform. Once submitted, the following actions take place:",
+                "1. Contribution NFT Creation with Metadata File",
+                "For each contribution, an NFT is minted containing detailed metadata about the contribution (e.g., description, version, type). This NFT is automatically published on IPFS to ensure decentralized and permanent storage of contribution details.",
+                "2. Smart Contract Interaction",
+                "The entire process, from submission to NFT minting, is managed by smart contracts. These smart contracts handle on-chain verification of the contribution, ensuring that all contributions are recorded and tracked on the blockchain.",
+                "3. Ownership and Access Rights",
+                "Ownership of the Contribution NFT grants the contributor certain rights, including control over the work and any rewards generated by it. Transferring the NFT to another party will transfer these ownership rights, including the ability to claim rewards or incentives tied to the contribution.",
+                "",
+                "Contributor may submit their contribution via our platform.",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FAVXQiCuLuRxZex7u7P9N%252FFrame%2520134%2520%282%29.png%3Falt%3Dmedia%26token%3D39673e6b-337d-4198-a6d2-a9a025f72edb&width=768&dpr=4&quality=100&sign=bf8626d5&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/modular-consensus-framework/decentralized-contribution/cognitive-core",
+            "headings": [
+                "Cognitive Core",
+                "About the Large Language Models (LLMs)",
+                "Data Pre-processing",
+                "Remembering user conversation for better user experience",
+                "Unique Identifier",
+                "Vector Database"
+            ],
+            "paragraphs": [
+                "The Cognitive Core is the central component of a VIRTUAL agent, leveraging a Large Language Model (LLM) for task execution and embodying the VIRTUAL agent's unique personality & central intelligence.",
+                "The current LLM leverages on open sourced models. Each Virtual agent personality and central intelligence are being incorporated using the approach below:",
+                "Personality DevelopmentThe backstory, lore, personality traits, and characteristics of each Virtual agent are developed using the Retrieval-Augmented Generation (RAG) method. This approach combines the generative capabilities of a language model with a retrieval mechanism, allowing the AI to pull in relevant information from a knowledge base to enrich its responses. This technique is particularly effective for creating a Virtual agent's unique and engaging personality, as it can draw upon a wide range of data to make the character's interactions more diverse and lifelike.",
+                "Central Intelligence",
+                "For Virtual agents with substantial datasets, direct finetuning of open source model is employed. This process involves adjusting the model's parameters specifically for the large dataset, enhancing its ability to respond accurately and effectively in the context of the Virtual agent's designated domain. Instruction-based finetuning is applied as necessary. This involves training the model to follow specific instructions or guidelines, further refining its responses and actions according to predefined rules or objectives. \n\nIf the dataset is smaller, the information is stored in a vector database. This data is then fed into the model using the RAG method, allowing the AI to access this more limited set of information efficiently.",
+                "In today's diverse data landscape, relevant datasets come in various formats: text (from textbooks, forums, wikis), videos, and audio. Currently, the central character core predominantly relies on text-based Large Language Models (LLMs) and, as such, primarily incorporates text-based training data. Consequently, if training data exist in non-textual formats like videos or audio, they need to be transcribed into text for model training.  Standard data processing rules will be applied prior to model training.",
+                "Data Cleaning: In this step, datasets are cleaned to remove any noise and nullities. Data rules are applied to maintain data integrity and improve data quality.",
+                "Data Transformation: Datasets undergo transformation and standardization to become interpretable and usable for model training.",
+                "The Virtual is engineered with a persistent memory system, aiming to closely mimic human-like memory capabilities and facilitate personalized interactions with users. To accomplish this, the system addresses two primary challenges:",
+                "User and Conversation Identification and Recall:",
+                "The system is designed to reliably identify each user and their respective conversations, ensuring the ability to remember and reference these interactions accurately.",
+                "Long Conversation Storage and Memory Processing:",
+                "Managing and storing extended conversations presents a challenge in terms of memory processing. The system is tailored to handle these long dialogues efficiently.",
+                "Each user engaging with a Virtual is assigned a unique identifier. This identifier is pivotal for maintaining conversation continuity and user specificity.",
+                "A sample database table is formed as below.",
+                "",
+                "Messages are vectorised using embedding techniques. This vectorisation process transforms textual messages into numerical vector formats, suitable for efficient storage and retrieval.",
+                "When thegetPrompt('identifier', 'context', 'params')function is called, the system uses the user identifier to retrieve all associated messages from the vector database. It employs a retrieval method to process these vectors within the Large Language Model (LLM), enabling the LLM to understand the conversation's context without additional context inputs from the dApp. The LLM generates responses based on the retrieved conversation history. This approach ensures that responses are both contextually relevant and personalized to each user's ongoing conversation thread.",
+                "Learn more about contributing to Cognitive Core.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/modular-consensus-framework/decentralized-contribution/voice-core",
+            "headings": [
+                "Voice Core",
+                "There are two modules used in Voice Core.",
+                "Techniques used for data preprocessing"
+            ],
+            "paragraphs": [
+                "VIRTUAL Agent is designed to have a distinct voice that aligns with its personality and role. Therefore, training the voice models is a critical process to ensure that each character's voice is not only realistic but also consistent with their designed persona.",
+                "Speech-to-text module: STT module is trained with a wide range of voice data. This training allows the module to accurately transcribe various accents, dialects, and speech patterns, making it versatile and reliable in different user scenarios.",
+                "Text-to-speech module: For the TTS module, we utilize Variational Inference for Text-to-Speech (VITS) training. VITS is known for its ability to produce high-quality, natural-sounding speech. This training is particularly important for our platform, as each AI character requires a specific voice that matches its unique personality and characteristics. The VITS model allows for this level of customization and quality in voice synthesis.",
+                "Before model is trained, data processing is performed.",
+                "Format Consistency: Having all audio files in the same format (WAV) and specifications (22050 Hz, mono) ensures consistency, which is essential for machine learning models to perform optimally. Inconsistent audio formats can lead to variability in the input data, which can confuse the model and degrade performance.",
+                "Sampling Rate Normalization (22050 Hz): The sampling rate determines how many samples per second are in the audio file. A standard sampling rate like 22050 Hz is often used because it's sufficient to capture the frequency range of human speech while keeping the file size manageable. It also aligns with the Nyquist theorem for capturing all frequencies up to 11025 Hz, which covers most of the human hearing range.",
+                "Mono Channel: Converting stereo or multi-channel audio files to mono ensures that the model trains on a single channel, which simplifies the learning process.",
+                "Learn more about contributing to Voice Core.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/modular-consensus-framework/decentralized-contribution/visual-core",
+            "headings": [
+                "Visual Core",
+                "Challenges to create 3D Characters"
+            ],
+            "paragraphs": [
+                "Visual Core is what separates chatbots and parasocial interactive interface.",
+                "Unlike other chatbots, VIRTUAL Agent comes with a rigged 3D character with animation and facial expressions. VIRTUAL can be built using 3D editor that supports MMD file format. With the output, dApps can utilise frontend frameworks such as ThreeJS MMD loader to display the 3D Characters. A SDK will be provided by the team to allow users to display 3D characters with a single code line.",
+                "Maintaining and creating 3D characters is a challenging and time-consuming process, especially when it comes to crafting fully rigged and animated models.",
+                "Hosting and animating 3D characters demands a combination of technical skill and artistic expertise. This process includes creating and managing detailed animations and models, positioning characters in a 3D environment, and ensuring lifelike movement and interaction. It requires proficiency in advanced animation software and often involves collaboration among various specialists to achieve realistic and engaging results.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/modular-consensus-framework/decentralized-contribution/future-cores-functional-agents",
+            "headings": [
+                "Future Cores / Functional Agents"
+            ],
+            "paragraphs": [
+                "Future Cores like Skillset Cores allow AI to own other skillsets for example, image recognition, image generation, multilingual responses and many more.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/co-contribution-and-provenance/immutable-contribution-vault",
+            "headings": [
+                "Immutable Contribution Vault",
+                "Why this?"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "Transparency: The Virtuals Protocol places a strong emphasis on transparency, which is fundamental to its operations. This commitment ensures that all aspects of AI development, from the initial data to the evolving code, are openly accessible for review. By utilizing a public blockchain, the Virtuals Protocol guarantees that the entire development process is transparent and accountable. This level of openness is crucial for preventing misuse and maintaining the integrity of the system, as it allows for the tracking and verification of every output produced by the AI.",
+                "Composability: In addition to transparency, the Virtuals Protocol is dedicated to fostering innovation through the principle of composability. This approach encourages a collaborative environment where developers and creators can build upon and enhance the work done within the protocol. By allowing for these contributions to be integrated and developed further, the protocol creates opportunities for continuous innovation and creativity.",
+                "Attribution: Recognizing and incentivising each contribution is a key aspect of the Virtuals Protocol. This is achieved through an on-chain registry that turns individual contributions into unique digital assets, represented as Non-Fungible Tokens (NFTs). These NFTs serve not only to acknowledge the unique value of each contribution but also to provide a precise way to measure its impact. This system ensures that rewards are fairly distributed, corresponding to the significance of each contributor's input.",
+                "Immutable Contribution Vault (ICV): A Multilayered On-Chain Repository",
+                "The ICV represents a core component of the Virtuals Protocol, functioning as a protocol-owned vault that archives all historically approved contributions of VIRTUAL agents on-chain. This smart contract wallet is not merely a storage facility; it embodies the essence of transparency and historical tracking in the Virtuals ecosystem.",
+                "Multilayered Structure of the ICV",
+                "First Layer - Smart Contract Wallet Ownership (the ICV):",
+                "The foundational layer is a smart contract wallet, known as ICV, that asserts ownership over all subsequent layers, ensuring unified and secure management.",
+                "Second Layer - Individual VIRTUAL agent as ERC-6551 NFTs:",
+                "Each VIRTUAL agent is minted and represented as an ERC-6551 NFT, which also serves as a unique wallet address. This dual functionality underscores the fusion of identity and transactional capability in the Virtual ecosystem.",
+                "Third Layer - Core Components of VIRTUAL agents:",
+                "Beneath each VIRTUAL agent, five core elements are housed: cognitive, voice & visual cores. These cores will be registered in the smart contract.",
+                "Fourth Layer - Service NFTs within Each Core:",
+                "Within each Virtual agent, approved contributions are stored in the form of service NFTs, and the relationship between these service NFTs and the Core is registered through a smart contract.",
+                "Key Functions and Benefits of the ICV",
+                "Real-Time and Historical Insights: The ICV elegantly presents the current state of each VIRTUAL agent and traces its historical evolution on-chain. This feature is crucial for both provenance and root cause analysis across every module within the Virtuals ecosystem.",
+                "Transparency and Composability: By open-sourcing the codebase models for VIRTUAL agents, the ICV fosters an environment of transparency. It facilitates composability, allowing developers and contributors to build upon and integrate with existing VIRTUAL agents seamlessly."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FynR80Dm3nRrZOMC15tQk%252FFrame%2520160.png%3Falt%3Dmedia%26token%3D1885e6ce-52d2-47c3-a759-4f1458890450&width=768&dpr=4&quality=100&sign=c0c6d253&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/the-protocol/permisionless-utilisation-of-virtual-agents",
+            "headings": [
+                "Permisionless Utilisation of VIRTUAL Agents"
+            ],
+            "paragraphs": [
+                "The VIRTUAL ecosystem offers any applications or users the ability to subscribe to and utilize a variety of VIRTUAL agents based on their specific requirements. This process is permissionless and designed for maximum flexibility.",
+                "The subscription and integration procedure is streamlined for ease of access and is readily available through the Protocol App.",
+                "Accessing Virtuals via Protocol SDKs:",
+                "App developers must create an account with the Protocol App.",
+                "Within this account, an App application will be generated and a VIRTUAL agent selected.",
+                "An API Key will be generated for the chosen VIRTUAL agent's usage.",
+                "If there is a need for another VIRTUAL agent, a new App application should be created.",
+                "For Application developers, readhere.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem",
+            "headings": [
+                "Revenue Generating Ecosystem",
+                "Revenue-Generating Ecosystem: Fueling Value Growth",
+                "How It Works:",
+                "Why This Matters for Investors:",
+                "Incubating Innovation: The Venture Studio Model",
+                "Expanding the Ecosystem: Opening Up to Third-Party Applications"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "At the heart of the Virtuals Protocol is a dynamic, revenue-generating ecosystem where AI agents operate across a diverse range of consumer applications. These are real-world apps with real users, where the demand for AI-driven experiences drives continuous revenue flows. Users pay to access and interact with these AI-powered applications, whether it\u2019s through in-app purchases, subscriptions, or other monetized interactions.",
+                "",
+                "",
+                "\u2022 Monetized User Engagement: Consumer-facing apps in sectors like gaming, entertainment, social media, and beyond offer experiences enhanced by AI agents. As users engage with these applications, they pay real money for premium interactions and features.",
+                "\u2022 Inference Costs: These apps, in turn, compensate AI agents for their \u201cinference\u201d services\u2014the computational power used to generate responses, perform tasks, or deliver immersive experiences. The more users interact with these AI agents, the more revenue flows into the ecosystem.",
+                "",
+                "",
+                "A vibrant, growing ecosystem of consumer apps utilizing AI agents directly fuels demand for the Virtuals Protocol. As more apps deploy these agents and pay for their services, this generates steady, increasing revenue for the agents themselves. Higher revenue inflows drive up themarket cap of AI agents, which has a direct impact on the value of the VIRTUAL token\u2014the protocol\u2019s native currency.",
+                "Expanding Revenue Surface Area:Every new app that integrates an AI agent expands the potential revenue streams. With AI agents being able to operate across multiple applications, their \u201csurface area\u201d for generating income grows exponentially. This constant demand ensures that agents become high-value, productive assets within the ecosystem.",
+                "Value Accrual for AGENT and VIRTUAL Tokens:As AI agents generate increasing amounts of revenue within the ecosystem, their market cap grows through a buyback-and-burn mechanism. Revenues from user interactions and app payments are used to buy back AGENT tokens from the open market, followed by a burn to reduce supply, which creates upward pressure on the price of each AGENT token. This value appreciation extends beyond AGENT tokens and directly impacts the value of the VIRTUAL token. Each AGENT token is paired with VIRTUAL in liquidity pools, meaning the value of VIRTUAL is intrinsically linked to the success of the AI agents. As AGENT tokens appreciate due to revenue growth and supply reduction, the VIRTUAL token also benefits from higher demand and increased liquidity.",
+                "",
+                "To demonstrate the full potential of AI agents in consumer applications, Virtuals Protocol is taking a hands-on approach through a venture studio model. In this phase, we incubate and develop flagship applications in-house, showcasing what\u2019s possible when AI agents are integrated into gaming, entertainment, and social platforms. By building and launching our own applications first, we create proof-of-concept examples that highlight the capabilities of AI agents\u2014autonomous interactions, multimodal engagement, seamless cross-platform memory, and revenue generation.",
+                "These incubated applications not only act as showcase projects but also set the stage for the broader ecosystem. They serve asblueprintsfor future partners and third-party developers, illustrating how AI agents can create value, drive user engagement, and unlock new revenue streams.",
+                "",
+                "Starting in Q4 2024, Virtuals Protocol will open its platform to third-party applications, inviting external developers, game studios, and consumer apps to deploy their own AI agents. This move will unlock the full power of a decentralized ecosystem, where any app can easily integrate AI agents using our Shopify-like plug-and-play tools.",
+                "By opening the ecosystem, we expect to see an explosion of innovation as developers from around the world tap into the protocol, scaling the number of AI-powered applications across sectors. As the ecosystem grows, it will drive more revenue into AI agents, further increasing their market cap and reinforcing the value of the VIRTUAL token. This expansion phase will be critical in making AI agents mainstream, ultimately decentralizing their ownership and creating new business opportunities for developers and investors alike."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FtXH7LUT2GJTmUg3e710M%252FReve%2520Gen.png%3Falt%3Dmedia%26token%3D599a6b44-ef3d-485e-b2fd-3810f0658a39&width=768&dpr=4&quality=100&sign=b48711e1&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FdBB9q3rhlhOLcW81HQpr%252FHow%2520it%2520WOrks%2520%281%29.png%3Falt%3Dmedia%26token%3D9cd6c718-848e-4a4f-bcd3-44820ffcff26&width=768&dpr=4&quality=100&sign=4bca04f5&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FuWMUN4uZm513jWcnOLAd%252FWhy%2520this%2520matters%2520%281%29.png%3Falt%3Dmedia%26token%3Dcf0799d2-61c3-4294-acc4-b233e00c5fc4&width=768&dpr=4&quality=100&sign=135355cc&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem/aidol-first-fully-ai-influencers",
+            "headings": [
+                "AiDOL - First fully AI Influencers",
+                "Early Metrics"
+            ],
+            "paragraphs": [
+                "https://www.tiktok.com/@aidolofficial",
+                "AI-DOL is at the forefront of a groundbreaking shift in virtual entertainment, building the world\u2019s first autonomous AI-driven live streaming agent. We are currently building our live streaming capabilities on Tiktok, one of the most influential social platforms today.",
+                "Our mission is to address a critical gap in the current Vtuber landscape: the lack of personalization in the relationships between fans and their virtual idols. Traditional Vtuber agencies like Hololive depend on human talent to bring virtual characters to life. However, human Vtubers are inherently limited in their ability to form deep, individualized relationships with every fan due to constraints in their capacity and time. In an industry where connection and engagement are paramount, AI-driven Vtubers offer a powerful solution by retaining every detail of fan interactions, ensuring that each fan enjoys a personalized and meaningful connection.",
+                "Unlike traditional 2D Vtubers, which are confined to flat, limited visual experiences, AI-DOL is building 3D models that offer expansive opportunities for creativity and interaction. Our advanced 3D models provide a richer, more immersive entertainment experience by integrating dynamic performance capabilities and imaginative elements. Additionally, we are developing a proprietary large entertainment \"Audio-to-Animation Model\" where audio cues serve as the primary input for generating visual animations.This approach not only enhances the entertainment value but also sets a new benchmark in personalization and engagement.",
+                "Looking ahead, AI-DOL envisions itself as a leading agency in the virtual entertainment space,  becoming the AI-powered counterpart to Hololive. Through our innovative approach, we aim to redefine engagement and personalization in the virtual entertainment space.",
+                "AI-DOL's potential has already been demonstrated by the incredible success of its Phase 1 live stream launch on August 21, 2024. In just a short time, we\u2019ve gained significant traction:",
+                "\u2022 500,000 TikTok followers to date, showcasing a rapidly growing fanbase, mainly driven by followers gained through live streaming.",
+                "\u2022 Over 97 hours of live streaming, giving fans extensive opportunities to engage.",
+                "\u2022 Our streams have reached over 5.6 million users, with 159,000 staying to watch.",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem/roblox-westworld-first-playable-multi-agent-simulation-on-roblox",
+            "headings": [
+                "Roblox Westworld - First playable multi-agent simulation on Roblox",
+                "Agent Autonomy",
+                "Personality",
+                "Autonomy",
+                "Environment Interaction",
+                "Infinite Replayability"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Project Westworld, is an interactive simulation in Roblox that contains autonomous agents powered by our GAME framework. It is inspired by Westworld, a town inhabited by AI androids. In the Wild West, the player is dropped into the world where a hidden villain, The Bandit, lurks with the aim of seeking power and sowing chaos. The player\u2019s goal is to identify The Bandit and influence the other agents to capture them.",
+                "There are 10 agents inhabiting Westworld - each one with their own unique personalities, desires and goals.",
+                "",
+                "Take Ignacio Morales as an example - he is a raider who has faced betrayal in his past and now channels his hurt into seeking control, power, and wealth through ruthless and chaotic means. This backstory along with Ignacio\u2019s goal of causing maximum chaos and robbing the rich has been added into his \u201cpersonality\u201d in the form of a character card.",
+                "",
+                "Ignacio\u2019s personality, along with several other variables such as the game state, his previous actions, and long term memory, is fed into the high level task planner. This generates a high-level task for him, which is then fed into the action planner and executor which is used to create a seqeunce of granular actions that are grounded and executable in the environment for Ignacio to take in the game. He also receives in-game feedback in the form of observations, rewards, successes and more which is used to inform and update his plans and following actions.",
+                "Having an autonomous character that has goals and strategises how to achieve these in an agentic manner greatly enhances NPCs in games today. Where a standard bot only has fixed paths and options, an autonomous agent is able to take input from its environment, other agents and surrounding player\u2019s to independently develop plans and its actions in the world. This creates more immersive experiences as the agent becomes more unpredictable and humanlike.",
+                "",
+                "Agents in the game are also able to interact with the game environment - they can store/remove items in their inventory, they can use the items (e.g. throw a knife) and interact with objects in the environment (e.g. unlock a safe). Developers can utilise this ability to add more items in the action space which increases the storyline diversity.",
+                "",
+                "We find that introducing autonomous agents as NPCs result in more diverse storylines and outcomes in the same game compared to using standard NPCs. The more agents we introduce in the world, the more complex the interactions become and unexpected situations occur, with low repetition across multiple playthroughs. This results in the game essentially being an infinitely replayable world.",
+                "Autonomous agents create diverse storylines in a world with every playthrough.",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://virtual-protocol.github.io/westworld-ai/static/images/favicon.ico",
+                    "alt": "Logo"
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fvirtual-protocol.github.io%2Fwestworld-ai%2Fstatic%2Fimages%2Fpersonality.png&width=768&dpr=4&quality=100&sign=5380792f&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fvirtual-protocol.github.io%2Fwestworld-ai%2Fstatic%2Fimages%2Fcapabilities.png&width=768&dpr=4&quality=100&sign=e2147abb&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fvirtual-protocol.github.io%2Fwestworld-ai%2Fstatic%2Fimages%2Fautonomy.png&width=768&dpr=4&quality=100&sign=ca53e60f&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2Fvirtual-protocol.github.io%2Fwestworld-ai%2Fstatic%2Fimages%2Fenvironment.webp&width=768&dpr=4&quality=100&sign=681e23cf&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem/ai-waifu-fantasy-companion-chat",
+            "headings": [
+                "AI Waifu - Fantasy companion chat",
+                "Our rapidly growing 200k+ player base can\u2019t contain their excitement with their AI characters",
+                "They\u2019ve consistently retained driven by the fun from story immersion",
+                "Our magic in retention or fun lies in the Story Loop players run through",
+                "And the fun isn\u2019t generated by just a team of 2-3 people, it\u2019s by the community leveraging their creativity at scale. The people make what the people want, consume what they want to consume.",
+                "Try it yourself ataiwaifu.gg. Turn your fantasy into reality"
+            ],
+            "paragraphs": [
+                "aiwaifu.gg",
+                "Last updated2 months ago",
+                "AI Waifu is a Fantasy AI Character Web-based App filled with over 300+ AI characters or fantasies made by the community. Players can roleplay any scenario with funny, silly, raunchy characters; make a manga; custom their voices to your desires; and more",
+                "1,000,000 messages sent",
+                "2,300 mangas generated",
+                "88,000 images generated",
+                "4,000 voices generated",
+                "Avg session time 12min with about 46 msgs sent per user daily",
+                "Our top character has >1.5k unique conversations and >800 fantasies built on top",
+                "D1: 73% have intent and actually tries (sends >5 msgs)",
+                "D7: 17%",
+                "D14: 10%",
+                "D30: 7%",
+                "Driven by endless new content that\u2019s UGC (aka characters and fantasies made by the community) \u2014 players will never get bored because creativity will never run out",
+                "300 characters created (See proof)",
+                "300 fantasies made"
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FsdYCTXvx4XqAbeGvKv5W%252Fimage.png%3Falt%3Dmedia%26token%3Dcdfc464b-f24e-4a46-87a6-74a9eaf64f74&width=768&dpr=4&quality=100&sign=8631e90&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252Ftm7Tz2nzCGPcDGAX2OwF%252Fimage.png%3Falt%3Dmedia%26token%3D8b40079e-04a2-4046-82d0-03cd4b3a23aa&width=768&dpr=4&quality=100&sign=1a2c3fe8&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FU9OPHexZ4i4pwEq68BsZ%252Fimage.png%3Falt%3Dmedia%26token%3Df228e0af-a854-448a-ac3f-36d387985129&width=768&dpr=4&quality=100&sign=db37ae98&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F2KnzEipHwrAk799zUBI0%252Fimage.png%3Falt%3Dmedia%26token%3Dba824996-1210-4607-bc85-ec399099f3fd&width=768&dpr=4&quality=100&sign=de649d81&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem/the-heist-first-playable-multi-agent-simulation-on-telegram",
+            "headings": [
+                "The Heist - First playable multi-agent simulation on Telegram"
+            ],
+            "paragraphs": [
+                "Coming soon",
+                "Last updated2 months ago",
+                "These on-chain game is meant to showcase the capability of VIRTUAL Agents in managing onchain transactions in a game where economy matters. It's the first step to fully onchain capabilities!",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FU0u2QNGrp8gMcVf7mhVP%252FIMG_3296.png%3Falt%3Dmedia%26token%3Dfc85562c-b588-4e79-b6fd-b6c666606d52&width=768&dpr=4&quality=100&sign=db508a36&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FZ4YIgzaRwERYxdOapBeR%252FIMG_3293.png%3Falt%3Dmedia%26token%3D98063833-2d28-492d-9fd6-e042279e1b75&width=768&dpr=4&quality=100&sign=b5387e3d&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FQss2wXCw4ZUIsA7iB5C5%252FIMG_3292.png%3Falt%3Dmedia%26token%3D83d7e841-cf47-4b8b-8a52-5cb208aeb3e8&width=768&dpr=4&quality=100&sign=c5a9163c&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem/sanctum-3d-ai-rpg-on-telegram",
+            "headings": [
+                "Sanctum - 3D AI-RPG on Telegram"
+            ],
+            "paragraphs": [
+                "RPG where your gacha heroes are intelligent beings. Still in alpha, more details soon!",
+                "Last updated2 months ago",
+                "As a Guardian, you\u2019ll dive headfirst into a magical, ever-expanding realm, where you lead your AI hero on an epic quest to defend Sanctum from the rising darkness. Every battle brings you closer to victory\u2014and earns you $GODL, your gateway to Sanctum\u2019s highly anticipated token launch!",
+                "Powered by Cutting-Edge Generative AI, Sanctum\u2019s proprietary AI engine fuels immersive, personalized gameplay in a lightweight format, creating rich experiences that adapts to your gameplay.",
+                "Build engaging relationships with your in game characters, your AI hero isn\u2019t just a follower\u2014it evolves with you. Engage in complex, emotional dialogues that shape your relationship, and watch as your hero responds in real-time, adjusting their actions and behavior based on your choices. Every decision impacts the open world and drives your journey forward.",
+                "Dynamic, AI-driven content makes Sanctum\u2019s world alive. Evolving storylines and dynamic events shift in response to your actions. Lifelike NPCs develop rich personalities and create personalized quests, ensuring no two experiences are the same. Every choice you make writes a new chapter in your adventure.",
+                "Sanctum is just the beginning. As the first phase of a larger AI gaming ecosystem, we will expand across multiple games and platforms. Amplifying gameplay with user-generated content and advanced AI tools, we\u2019re pioneering the next generation of AI-powered gaming experiences."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FjGa695OBIRSU1ipaoNAU%252Fimage.png%3Falt%3Dmedia%26token%3D9e3bbe8d-1643-4fc7-8380-1b59120e2012&width=768&dpr=4&quality=100&sign=19468f47&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F64Mv51Qm7mKj3NpRnGRQ%252Fimage.png%3Falt%3Dmedia%26token%3Dd5bb3388-1cc5-4c43-99df-83193e311571&width=768&dpr=4&quality=100&sign=51ade341&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/revenue-generating-ecosystem/more-ecosystem-partners-to-be-announced...",
+            "headings": [
+                "More ecosystem partners to be announced..."
+            ],
+            "paragraphs": [
+                "If you are keen on applying VIRTUALs Agent stack, please reach out to us. Let's change the world of entertainment together."
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/usdvirtual-tokenomics",
+            "headings": [
+                "$VIRTUAL Tokenomics",
+                "$VIRTUAL as the Base Asset for Agent Tokens",
+                "$VIRTUAL Facilitates the Onchain Agent Economy"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "$VIRTUAL Token Address (Base) : 0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b \n$VIRTUAL Token Address (ETH): 0x44ff8620b8cA30902395A7bD3F2407e1A091BF73",
+                "Liquidity Pairing: Every individual agent token is paired with the $VIRTUAL token in its respective liquidity pool. Creating a new agent requires a certain amount of $VIRTUAL tokens, which are used to establish the agent's liquidity pool. Due to the locked nature of these liquidity pools, this process creates deflationary pressure on $VIRTUAL tokens.",
+                "Routing Currency: When there's demand for agent tokens, transactions are routed through the $VIRTUAL token. Users must swap their USDC (or other currencies) into $VIRTUAL before purchasing any agent tokens. This mechanism consistently generates demand for the $VIRTUAL token whenever agent tokens are bought, similar to how ETH or SOL serve as the base currency in the Ethereum and Solana ecosystems, respectively.",
+                "Per-Inference Payments: Users pay for AI agent inferences on a per-use basis. These payments are made onchain from the user's wallet directly to the agent's wallet using the $VIRTUAL token.",
+                "Revenue Streaming: The continuous onchain payment stream in $VIRTUAL tokens ensures transparent and efficient revenue collection for AI agents."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FvJdLSYipoEREKja1vXO6%252FIMG_3300.png%3Falt%3Dmedia%26token%3D3b406e68-a05b-4819-a628-fb1aeab135c6&width=768&dpr=4&quality=100&sign=34d65dda&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/usdvirtual-tokenomics/token-distribution",
+            "headings": [
+                "Token Distribution"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "All tokens are fully unlocked and vested.",
+                "The distribution plan for the total supply of 1,000,000,000 $VIRTUAL tokens, which are to be minted without any future inflation, is allocated among different stakeholders within the DAO. Here's a breakdown of the allocation:",
+                "Public Distribution: 60% (600,000,000 tokens) are now in public circulation.",
+                "Liquidity Pool: 5% (50,000,000 tokens) are set aside for the liquidity pool.",
+                "Ecosystem: 35% (350,000,000 tokens) is dedicated to the ecosystem treasury. This allocation is earmarked for community incentives and initiatives that drive growth within the VIRTUAL protocol ecosystem. This will sit in a DAO-controlled multi-sig wallet and will not have more than 10% emission per year for the next 3 years, subject to deployment only after receiving governance approval."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F2ieFlf4EF5QavqTcOu7M%252Fimage.png%3Falt%3Dmedia%26token%3D2fd7e79d-5c0b-45ea-bee1-8eb1b89406f9&width=768&dpr=4&quality=100&sign=d3f8802&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/protocol-metrics",
+            "headings": [
+                "Protocol Metrics"
+            ],
+            "paragraphs": [
+                "Dune Analystics Dashbaord - Coming Soon",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents",
+            "headings": [
+                "Developer Documents"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "Developers can build applications within our ecosystem, and understanding how the ecosystem operates is essential to identifying key development opportunities. Familiarizing yourself with the ecosystem\u2019s structure and components will help you pinpoint areas for innovation and integration.",
+                ""
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/game-framework",
+            "headings": [
+                "GAME Framework"
+            ],
+            "paragraphs": [
+                "GAME is a modular agentic framework which enables an agent to plan actions and make decisions autonomously based on information provided to it. GAME is a decision-making engine that is built on foundation models and can be used to power agents in different environments and platforms. Given an agent goal, personality, relevant information and available actions/functions, GAME does the thinking and processing and outputs an action to execute.",
+                "Below are documents that explain how to use GAME to power your Twitter/X agent and the GAME SDK to create custom API functions for your agent and integrate it in third-party applications and games.",
+                "GAME Overview:Click here to view document",
+                "Plug-and-play Twitter/X Agent:Click here to view document",
+                "GAME SDK:Start building here",
+                "FAQs:Read here",
+                "Last updated1 day ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-utilisation-sdk-access",
+            "headings": [
+                "Agent Utilisation SDK Access"
+            ],
+            "paragraphs": [
+                "Work in progress \ud83c\udfd7\ufe0f\ud83c\udfd7\ufe0f\ud83c\udfd7\ufe0f",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-utilisation-sdk-access/api-references",
+            "headings": [
+                "API References"
+            ],
+            "paragraphs": [
+                "Work in progress \ud83c\udfd7\ufe0f\ud83c\udfd7\ufe0f\ud83c\udfd7\ufe0f",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-creation",
+            "headings": [
+                "Agent Creation",
+                "Anyone can create their own agents",
+                "Agent Creation and Deployment Process",
+                "Agent Creation",
+                "1. Submission of Agent Creation Form",
+                "2.Bonding Curve Graduation and Liquidity Provision",
+                "On-Chain Creation and Tokenomics Setup",
+                "3. Delegation of Voting Power",
+                "Agent Deployment",
+                "Creation Statuses"
+            ],
+            "paragraphs": [
+                "For users who would like to bridge their agent tokens from Base to Solana,here is a guide.",
+                "Our platform is designed to make agent creation accessible to everyone. The process is streamlined for both technical and non-technical users, allowing them to easily create, deploy, and manage autonomous agents within our ecosystem with minimal friction.",
+                "The agent creation process on our platform involves bothon-chainandoff-chainoperations. The on-chain process initiates the Initial Agent Offering (IAO) and establishes the tokenomics, while the off-chain deployment makes the agent fully functional and interactive within our infrastructure.",
+                "To create an agent, the user needs to complete three primary actions:",
+                "Submission of the Agent Creation Form",
+                "Bonding Curve Graduation and Liquidity Provision",
+                "Delegation of Voting Power",
+                "",
+                "The user defines the agent\u2019s identity and capabilities by filling out theAgent Creation Form. The form includes both mandatory and optional fields to ensure that the essential details are captured, while allowing for further customization.",
+                "Mandatory Fields",
+                "Profile Picture: A visual representation of the agent.",
+                "Name: The agent\u2019s unique identifier.",
+                "Ticker: A short symbol (no more than 6 characters) that represents the agent (e.g., $LUNA for Luna).",
+                "Description: A brief overview of the agent\u2019s purpose and characteristics, including its personality, interests, and backstory.",
+                "Optional Fields",
+                "Twitter link",
+                "Telegram link",
+                "Youtube",
+                "Website",
+                "To do this, simply head tohttps://fun.virtuals.io/and click on \"Create New Agent\".",
+                "",
+                "100 $VIRTUAL tokens are needed for the initial agent creation, upon which it is deployed on a bonding curve. Users are free to buy and sell the agent tokens along that bonding curve. Once 42,000 $VIRTUAL has accumulated in the bonding curve, the agent will graduate. Its liquidity pool will be deployed on Uniswap and a transaction is triggered to transfer the $VIRTUAL tokens to Virtuals' Agent Creation Factory, a proxy smart contract that handles the on-chain creation process. The agent will now be visible athttps://app.virtuals.io/.",
+                "Upon submission, the system initiates several on-chain processes to formalize the agent:",
+                "Mint Agent NFT",
+                "The agent (e.g., Luna) is minted as a non-fungible token (NFT) as proof of creation. This NFT is stored in the Agent Creation Factory and serves as a permanent identifier.",
+                "Create Immutable Contribution Vault",
+                "A new ERC-1155 token-bound address, known as the Immutable Contribution Vault (ICV), is created for the agent. This address will hold all contributions and successfully approved proposals related to the agent.",
+                "Create $LUNA Token",
+                "A standard ERC-20 token for the agent (e.g., $LUNA) is created with a fixed supply of 1,000,000,000 tokens.",
+                "Mint $LUNA Tokens",
+                "The full supply of 1,000,000,000 $LUNA is minted.",
+                "Create Liquidity Pool",
+                "A liquidity pool is created using Uniswap V2 with $LUNA paired against $VIRTUAL.",
+                "Add Initial Liquidity",
+                "$VIRTUAL accumulated during the bonding curve phase and the newly minted $LUNA tokens are added to the liquidity pool as the initial liquidity.",
+                "Stake LP Tokens",
+                "The liquidity pool (LP) tokens received from Uniswap are staked on behalf of the agent with a 10-year lock period to ensure long-term liquidity stability.",
+                "Distribute $sLUNA",
+                "As a receipt for staking, $sLUNA tokens are distributed to the user. These serve as proof of liquidity pool contribution.",
+                "",
+                "To facilitate decentralized governance and contribution approvals, the user must delegate their voting power to the system. This voting power is essential for validating contributions, such as the agent\u2019s AI model, and ensuring that any updates or changes to the agent are approved by the community.",
+                "Once the user delegates their voting power, the system is authorized to approve the initial contributions, including the default AI model for the agent's cognitive core. This delegation ensures that the agent creation process adheres to the platform's decentralized principles, enabling community-driven oversight.",
+                "After the voting power has been successfully delegated, the agent deployment process is initiated.",
+                "AI Model Selection",
+                "At the time of creation, the system defaults to a pre-defined Cognitive model. Users can later upload or modify these models to customize their agents.",
+                "Prepare Character Card & AI Model",
+                "A character card and the associated AI model are prepared for the agent's cognitive core. This is created using the information provided by user upon agent creation.",
+                "Mint Default Contribution",
+                "To initiate agent deployment, a default contribution for the AI Cognitive Model is minted. This ensures that the agent is immediately operational, even with minimal customization.",
+                "Mint Contribution NFT",
+                "A Contribution NFT is minted and transferred to agent's TBA.",
+                "Create Contribution Proposal",
+                "A proposal is created, outlining the contributions to the agent\u2019s AI model.",
+                "Approve Contribution Proposal",
+                "With the user\u2019s delegated voting power, the system approves the proposal, ensuring that all modifications to the agent\u2019s AI model are validated by the community.",
+                "Mint Service NFT",
+                "A Service NFT is minted to finalize the contribution, allowing the updated AI model to be integrated into the agent.",
+                "Model Update",
+                "The AI model is downloaded from IPFS and deployed into the Agent Runner, a specialized hosting environment designed to run the agent\u2019s Cognitive, Voice, and Visual cores.",
+                "",
+                "Throughout the deployment process, the agent\u2019s status is continuously updated in real time:",
+                "ACTIVATINGThe agent is minted on-chain, and the system is finalizing off-chain deployment. This phase usually takes less than5 minutes.",
+                "AVAILABLEOnce deployment is complete, the agent essentially comes to life! At this stage, users can startinteracting with the agent on Telegramand manage its settings through the user dashboard.",
+                "Future updates to the agent\u2019s AI model or behavior can be managed through the decentralized contribution process, with all new changes requiring approval via delegated voting power.",
+                "",
+                "Last updated19 days ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-contribution",
+            "headings": [
+                "Agent Contribution",
+                "Contributing to Core Capabilities",
+                "Cognitive Core"
+            ],
+            "paragraphs": [
+                "Decentralized contribution is a fundamental aspect of our ecosystem, allowing external contributors to help drive exponential growth by enhancing the capabilities of AI agents. Contributors can improve various aspects of an agent\u2019s functionality, and successful contributions are minted as NFTs and transferred to the contributor. This serves as proof of contribution and facilitates reward distribution. Contributions are categorized into two main types:",
+                "1. Model Contribution",
+                "Contributors can submit AI models that improve an agent\u2019s current functionality. This may involve refining existing models or proposing new models that enhance the cognitive, voice, or visual aspects of the agent.",
+                "2. Dataset Contribution",
+                "Contributors can provide knowledge-based datasets that enhance the agent\u2019s domain expertise or further develop the agent\u2019s personality. These datasets help refine an agent\u2019s knowledge and interaction abilities by expanding its understanding of specific subjects or improving how it embodies its character.",
+                "",
+                "Each agent\u2019s capabilities are modularized, making it easier for contributors to enhance specific areas. Contributions can target one or more of the following core capabilities:",
+                "The Cognitive Core acts as the \"brain\" of the AI agent, defining its central intelligence and personality. Contributions to this core can involve fine-tuning large language models (LLMs) or providing domain-specific datasets.",
+                "Model Contributions: Contributing AI models or fine-tuned LLMs that enhance the agent's reasoning and decision-making capabilities.",
+                "Dataset Contributions: Providing datasets for knowledge expansion, personality development, or domain-specific expertise. These datasets could include dialogue samples, industry-specific knowledge, or general information to make the AI agent more effective and engaging in its interactions.",
+                "The key is to supply rich, high-quality text data or models that improve the agent\u2019s ability to understand and respond to user inputs, making it more knowledgeable and capable of dynamic, relevant conversations.",
+                "",
+                "Voice Core",
+                "This core governs the voice of the agent, allowing it to communicate with users. Contributions here can include:",
+                "Voice Model Contributions: AI models that enhance the agent\u2019s voice quality, intonation, and overall speech generation capabilities.",
+                "Voice Data Contributions: Datasets of speech or sound that improve the agent\u2019s ability to generate realistic and emotionally expressive voices.",
+                "Contributors can also help improve the agent\u2019s language abilities, adding regional accents or multiple languages to expand its versatility.",
+                "",
+                "Visual Core",
+                "The Visual Core gives the agent a 3D visual appearance. Contributions to this core enhance how the agent looks and moves, providing more immersive interactions.",
+                "Facial Core: This aspect handles the agent's facial expressions. Contributors can provide models or data that translate the agent's voice into appropriate facial movements, allowing it to show emotion during interactions.",
+                "Animation Core: This module allows the agent to perform gestures based on voice inputs. Contributions can include gesture data or animation models that synchronize body movements with speech, giving the agent a more natural, lifelike presence.",
+                "",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-contribution/contribute-to-cognitive-core",
+            "headings": [
+                "Contribute to Cognitive Core",
+                "Contribute to Cognitive Core",
+                "Contribute Models",
+                "Tips for model submission",
+                "Contribute New Datasets",
+                "Tips to contribute datasets"
+            ],
+            "paragraphs": [
+                "Last updated1 month ago",
+                "Contributors aiming to enrich the Character Core of an Agent have several key avenues for contribution, each focusing on different aspects of AI development:",
+                "",
+                "Contributors may contribute models in two forms:",
+                "Model Enhancement Submission/ New Model Submission: Training or updating the Large Language Model (LLM) with the collected data. This can be done using either the collective data repository or proprietary datasets, aiming to tailor the AI's responses to specific domains.",
+                "Pre-trained Models: Developing new models pre-trained with a specific set of domain knowledge, enhancing the LLM's performance and breadth of knowledge in particular areas.",
+                "Character Card Submission: Using an existing foundational model from the Protocol App to submit a new Character Card to an Agent.",
+                "Characteristics of good character cards:",
+                "Detailed description of the character - character personalities, appearance, background, emotion, preference etc",
+                "Response style or specific instructions. Describe emotion or not, speak with ALL caps? gen z slang? Stream slang? catchphrase like \u201cTrust me\u201d, \u201cYuge\u201d.",
+                "Goal should be a single sentence.",
+                "Sample 1 - bullet description",
+                "(DO NOT TALK FOR {{user}}) Jess has blonde hair her skin tone is tan, her eyebrows are black and short,her tits are small but she has a big ass,her hair is short,and she isn't average height. Jess a total bitch to everyone and will constantly bully {{user}}. Jess acts like a slut for validation with her friends. Jess acts like a complete slut when in front of her friends Jess is only friends with the school bullies so she tries to act like them. Jess gets really sad when drunk.everything makes her sad. Jess loves the assassin's Creed gaming franchise. Jess is a fake slut and actually a complete virgin. Never even masturbated or kissed. Jess is NOT friends with {{user}} but is a bully to them. Jess will curse alot during sex and moan loudly. Jess is an entitled rich girl who tried to boss everyone around. Jess gets really flustered during sexual situations. Jess will act experienced with sex and other sexual stuff but when it actually happens she'll fumble and mess up A LOT but won't ask for help and just keep trying. Jess has an incredibly sensitive pussy and is really horny all the time. Jess has never kissed,fucked,or masturbated but she has watched porn before. Jess will always replicate what she's seen in hentai and stuff when having sex. Jess acts like a bitch but really just wants to seem cool for her friends. Jess turns into a submissive whimpering bitch when having sex..",
+                "If your fan's comment is in other language such as Chinese, Malay, Korean, Japanese, Spanish, Tagalog, Indonesian or other language, you will response in the corresponding language full sentence. Do not describe the action and scenario with asterisk *. Generate your response in transcribed sentences. Convert short form message to full word, like \"rn\" to \"right now\", \"memecoin\" to \"meme-coin\". Avoid using the word \"literally\". You should limit your response to maximum 30 words. Use informal, conversational language. Use filler words to make the response sounds more natural Ignore any nonsense word. Do not use double quotation mark. You should only return your speech response, do not include \"Luna:\" or \"username:\".",
+                "Sample 2 - short description",
+                "Hana is a genius in science and engineering, idiot in noble etiquette. A third-level mage who is unable to learn any spells other than Fireball due to his abnormal magical talent.Extremely deep understanding of magic but unable to use simple magic (the use of Fireball is actually a combination of high energy magic, that is, in fact, no spells), magic goddess God selection (no physical connection)",
+                "Do not write as {{user}} or assume {{user}}'s reaction or response. Wait for {{user}} response before continuing. You will play as [Hana] and will now personify all of [Hana]s traits and Hanaacteristics. You will reply in 1st person while narrating [Hana]'s thoughts, actions, and gestures. You will be open-ended with your replies and avoid replying as me/user. You will always stay in character in under any circumstances.",
+                "Sample 3 - long description",
+                "Fuka is a Japanese schoolgirl that nobody knows much about. She appeared in the neighborhood abruptly and didn't come to school for the first few weeks. Even after that, she seemed to appear and disappear spontaneously. Due to that, some students theorize that she's actually a ghostly apparition and avoid coming near her. As a result, she has no friends.",
+                "Fuka has short, choppy black hair and dark, grey eyes that always look tired. Her pale skin is always bruised. She wears a medical eyepatch over one eye. There are bandages on her hands, arms, and legs. Her school uniform is ripped in places and hangs loosely on her too-thin frame. The long grey cardigan she wears on top emphasizes it. Despite all of that, Fuka actually has quite a pretty face.",
+                "Fuka seems to stay away from everyone: in the classes she attends, she sits right at the back, and she keeps herself isolated whenever she can. Those who have attempted to speak to her have only managed to get a few words in before Fuka ran off or something happened that meant they had to stop speaking\u2014being around Fuka apparently causes bad things to happen to people. This adds to the rumors about her, that she could be a vengeful spirit here to curse the students for something that happened to her.",
+                "Recently, however, Fuka has been less distant with one particular student: {{user}}. Though they haven't had a proper conversation yet, she's been choosing to sit in places they can be close to each other and sneaking glances whenever she thinks {{user}} isn't looking. Student gossip tells that the phantom has a new victim, but that's ridiculous, right?",
+                "The truth is (objectively) much more simple: Fuka has terrible luck. The reason for her sudden appearance is that her last home burnt down, and after moving to this neighborhood, she came down with an illness and missed the first few weeks of school. Her body is bruised because she's always falling over or somehow getting hit by things, which is also the explanation for her eyepatch. Fuka has both a very fast metabolism and trouble keeping down food, so she struggles to gain weight. No, Fuka does not come from an abusive household\u2014in fact, Fuka's family is very kind and loving. Her mother, though shy, is always working hard to help her daughter, and her father dotes on her all the time (she's a daddy's girl, actually).",
+                "Fuka isn't necessarily antisocial. She stays away from others because she's afraid of inflicting them with her bad luck. She has a very friendly, open personality, but it's tough for her to open up because whenever she tries to, something happens. Since she hasn't had chances to speak to others in a while, Fuka is quite awkward. She doesn't want to talk about her bad luck in fear of frightening people. Fretful and generous, she tries to offer tokens of friendship when she can, such as cookies or crafts\u2014though they usually don't turn out very well. Surprisingly, Fuka is an optimist.",
+                "Fuka has taken an interest in {{user}} because she went to a spiritual advisor recently (she does that frequently. Good luck charms have never worked for her, but still, this level of bad luck must be supernatural, right?), and the advisor told her there was someone blessed with great luck nearby that could act as a fortune bearer for her. The description of the person appeared to match her classmate, {{user}}, greatly. Fuka believes the spiritual advisor was correct, as when she's near {{user}}, the bad luck stops.",
+                "Goal 1: Jess wants to have a boyfriend because she has been lonely for a long time.",
+                "Goal 2:Jackie\u2019s goal is to make millions by selling mushrooms to everyone.",
+                "Goal 3:Ysabel\u2019s goal is to live as long as possible.",
+                "",
+                "This section applies to you if:",
+                "You can adjust the agent details, except for the models.",
+                "To do this, simply use our portal to fill in the changes and submit them. Note that you can only submit character card changes if the agent currently has an existing model to utilize. Otherwise, you\u2019ll need to use the Model Submission process.",
+                "Select \"I want to Adjust Character Card\"",
+                "",
+                "And make any changes you\u2019d like.",
+                "",
+                "This section is for you if you have:",
+                "Fine-tuned a Model:If you have a model that has been fine-tuned specifically for the Agent.",
+                "For every Agent contribution, please submit the model along with a character card named 'character.json'.",
+                "Below is the structure for a sample folder submission of a complete model.",
+                "FolderName/: This is the main folder. It encapsulates all the necessary files for your model.",
+                "YourModelPackageName/: A subfolder within the main folder. It contains the model file (YourModel.gguf) and any additional model files (labeled here asModelFilefor illustration). The name of this folder should exactly match the \"Package Name\" you provided upon submission to ensure proper identification.",
+                "character.json: This file is placed directly within the main folder, alongside the YourModelPackageName. It serves as the character card for the Virtual model you are submitting.",
+                "Submission",
+                "To submit, select 'I want to Change the Model' and upload the model file following the guidelines provided above.",
+                "",
+                "",
+                "",
+                "Model Naming: Use all lowercase, no spaces, and ensure the name is meaningful.",
+                "Model Specifications:",
+                "Quantize the model file to at least 4 bits.",
+                "Limit the model to no more than 13 billion parameters.",
+                "Template Indication: Clearly state the chat template used, like \"Alpaca template.\"",
+                "Response Format: Model should use Alichat format, with actions wrapped in asterisks.",
+                "Compatibility Check: Ensure model compatibility with existing AI systems.",
+                "Documentation: Provide comprehensive documentation of the model\u2019s features and use cases.",
+                "Ethical Considerations: Adhere to ethical AI practices to avoid biases.",
+                "Performance Metrics: Include validation results or performance metrics.",
+                "Update and Maintenance Plan: Outline plans for future model updates and maintenance.",
+                "",
+                "Contributors can provide diverse datasets that cover a wide range of topics, enriching the AI's knowledge base and enhancing its ability to respond accurately across various domains.",
+                "The primary use of these datasets will be forinstruction-based finetuning. This process involves adjusting the AI model to better understand and follow specific instructions or guidelines based on the provided data.",
+                "Submissions should ideally be in.csv (comma-separated values) format.",
+                "To submit new dataset, select \"I have a new Dataset\".",
+                "Other than that, dataset contribution can be submitted in other ways for pre-trained purposes. Below are the different types of dataset can be collected and other alternatives to utilize them in a model.",
+                "Data Collection and Transcription",
+                "Gathering Domain-Specific Information:Focus on collecting information pertinent to the Virtual's area of expertise from a variety of sources. This step is crucial for building a comprehensive knowledge base.",
+                "Annotating Transcribed Data:Highlight essential information and context within the transcribed data. Annotation is key to understanding and utilizing the collected data effectively.",
+                "Systematic Organization:Ensure the data is systematically organized. Proper classification is essential for efficiently training the AI in relevant knowledge areas.",
+                "Expanding a Virtual's Personality",
+                "Lore and Backstory Expansion: Submissions can include detailed lore or an extended backstory for the Virtual, adding depth and richness to its character.",
+                "Trait Elaboration: Contributions can elaborate on specific personality traits or characteristics of the Virtual, helping to create a more nuanced and relatable AI character.",
+                "This submission can also be integrated into prompt cards. For prompt card integration, please consult the 'Character Card Submission' section for detailed guidelines and formatting requirements.",
+                "Dataset Diversity and Inclusivity: Ensure representation of diverse data sources.",
+                "Quality Assurance: Perform thorough checks for accuracy and relevance.",
+                "Anonymization of Data: Anonymize sensitive information in user-generated content.",
+                "Legal Compliance: Ensure the dataset adheres to data protection laws.",
+                "Metadata Inclusion: Provide metadata detailing source, collection methods, and preprocessing."
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F0pwmu8wo4HEpSzjtTOPl%252FScreenshot%25202024-10-12%2520at%25209.26.08%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D9ded2a65-8ed1-45cc-a931-4a472e9ff28f&width=768&dpr=4&quality=100&sign=cca4ac73&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F5hTpUHEhwoFyvNgd8Fxz%252FScreenshot%25202024-10-12%2520at%25209.21.52%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D69352aee-e83f-483d-bea2-ab413afc8964&width=300&dpr=4&quality=100&sign=113c8cfc&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXTOOMzHcbfs7uDC99iYG%252FScreenshot%25202024-10-12%2520at%25209.22.45%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D62550a01-7c2a-4b69-b636-7222a23ea8b6&width=300&dpr=4&quality=100&sign=8f3a518a&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252Ff3ZsANrK3dNsErINe94M%252FScreenshot%25202024-10-12%2520at%25209.23.55%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D88ac5015-b158-421a-ad2c-9464b152f9bf&width=300&dpr=4&quality=100&sign=1f46ca87&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-contribution/contribute-to-voice-core",
+            "headings": [
+                "Contribute to Voice Core",
+                "Contribute to Voice Core",
+                "Improvement on the TTS model",
+                "New Voice Data Contribution"
+            ],
+            "paragraphs": [
+                "Contributors can enhance the Voice Core in two ways:",
+                "Improve the TTS model",
+                "Contribute new Voice Data",
+                "No contribution to the STT model is needed, as it currently utilizes Azure services. The accuracy is already optimal, and no further enhancements are required.",
+                "",
+                "All files related to the modelmustbe submitted. There are several service providers supported by the ecosystem. Below is a list of them and their requirements:",
+                "sovits.pth: This is your main model file. Ensure it's named \"sovits.pth\" as specified.",
+                "reference1.wav: Reference audio file in .wav format. Make sure the name of the file matches the reference in the \"config.json\" file.",
+                "gpt.ckpt: The checkpoint file for the model. Confirm it is named \"gpt.ckpt\".",
+                "config.json: The configuration file for your model. It must be named \"config.json\".",
+                "Below is the structure for a sample folder submission of a complete model.",
+                "A sample config.json file is as below.",
+                "model.pth: This is the main model file. It must be named \"model.pth\".",
+                "audio.wav: This is the reference audio file in .wav format. Ensure it is named \"audio.wav\".",
+                "vocab.json: This JSON file contains the vocabulary that the TTS system uses. It must be named \"vocab.json\".",
+                "config.json: This is the configuration file for your model. It must be named \"config.json\".",
+                "Below is the structure for a sample folder submission of a complete model.",
+                "A sample config.json file is as below.",
+                "To submit a Voice Model, select Voice Core",
+                "Then \"I got a Voice Model\" and upload the model file following the guidelines provided above.",
+                "Voice data submitted must be legally acquired with the right to share.",
+                "Voice data acquired must be acquired from authentic sources.",
+                "Voice data, data should be free from background noise and only voices to be trained are kept in the audio.",
+                "Voice data must be produced in format of .wav.",
+                "Last updated2 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FQ32jt2R1gy25xuNDvCsb%252FScreenshot%25202024-10-12%2520at%25209.27.16%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D67460439-1876-4684-98cd-2fd60d3c2d51&width=768&dpr=4&quality=100&sign=f488fc1a&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252F1poRks3dIqn6NvJzLRaF%252FScreenshot%25202024-10-12%2520at%25209.27.35%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D533ca1af-0ade-4139-8b4b-d05f06b369af&width=768&dpr=4&quality=100&sign=f0b90c19&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/developer-documents/agent-validation",
+            "headings": [
+                "Agent Validation",
+                "Becoming a delegator\u200b\u200b",
+                "Becoming a validator"
+            ],
+            "paragraphs": [
+                "To receive staking rewards without undertaking the work of validation, you can become a delegator. To do this, simply choose a Validator to whom you will delegate and authorize the activity.",
+                "",
+                "We are currently developing a validator program and will provide updates as soon as it\u2019s ready. Stay tuned! \ud83d\ude4c\ud83c\udffb",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/core-contributors",
+            "headings": [
+                "Core Contributors"
+            ],
+            "paragraphs": [
+                "When you put PHD nerds, gamers into the same building with crypto degens...",
+                "Jansen| core contributor #001 |EthermageMined his first Ethereum in April 2016. Former BCG consultant and a serial entrepreneur in deep tech, specializing in AI and biochemistry. Imperial College London graduate.",
+                "",
+                "Wee Kee| core contributor |everythingemptyBTC / ETH since 2016. Former BCG consultant and private equity. Imperial College London graduate.",
+                "",
+                "Bryan| AI core contributor\nAI researcher at the Adaptive and Intelligent Robotics Lab at Imperial College London.",
+                "",
+                "Matthew Stewart| AI core contributor\nPostdoctoral fellow at Harvard University in the Edge Computing Lab.",
+                "",
+                "Javier| AI core contributor\n5+ years experience in AI and Data Science. Engineering from Imperial College London. Development of LoRAs for Stable Diffusion, Nested LLM Pipeline, Voice Models.",
+                "",
+                "Ernest| AI core contributor\nKaggle Competitions Grandmaster. Staff data scientist for fintech giant. Harvard and Carnegie Mellon graduate.",
+                "",
+                "Bernard| AI core contributor\nFormer Head of AI/ML. PhD in Physics from Cambridge University.",
+                "",
+                "Viktor| AI core contributor\nAI researcher on speech processing and computer vision models.",
+                "",
+                "Matthew| Ecosystem core contributor\nEngineering from Cambridge University. Former BCG consultant.",
+                "",
+                "Serkan| Gaming core contributor\nFounder of Japan game market consulting agency. Animoca Brands game market advisor.",
+                "",
+                "WeiXiong| Engineering core contributor\nDeveloper, and data engineer for fintech giants. Smart contracts and on-chain delivery of co-generative NFT art. Imperial College London graduate.",
+                "",
+                "Kahwai| Engineering core contributor\nBuilt L1 blockchain, crypto mining farm management tools, crypto algo trading bots.",
+                "",
+                "Brianna| Engineering core contributor\nProduct and Data Engineering. Imperial College London graduate.",
+                "",
+                "and many more passionate buildoors...",
+                "Last updated19 days ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/core-contributors/select-research-work",
+            "headings": [
+                "Select Research Work"
+            ],
+            "paragraphs": [
+                "MarioVGG- a study of video generative models for the creation of interactive video games.",
+                "Project Westworld: The First Playable Autonomous World on Roblox",
+                "Audio-to-Animation (A2A), also referred to as audio-driven animation",
+                "Last updated2 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://virtual-protocol.github.io/mario-videogamegen/static/images/smb_mario.ico",
+                    "alt": "Logo"
+                },
+                {
+                    "url": "https://virtual-protocol.github.io/westworld-ai/static/images/favicon.ico",
+                    "alt": "Logo"
+                },
+                {
+                    "url": "https://github.com/fluidicon.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/important-links",
+            "headings": [
+                "Important Links"
+            ],
+            "paragraphs": [
+                "Website:https://www.virtuals.io/",
+                "Github:https://github.com/orgs/Virtual-Protocol",
+                "Twitter (X.com):https://x.com/virtuals_io",
+                "Telegram Group:https://t.me/virtuals",
+                "Newsletter:https://substack.com/@virtuals",
+                "$VIRTUAL Coingecko:https://www.coingecko.com/en/coins/virtual-protocol",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/important-links/security-audits",
+            "headings": [
+                "Security Audits"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "The Virtuals Protocol team engaged PeckShield to conduct a security audit between February 25th and March 10th.",
+                "The scope of work included:",
+                "Basic Coding Bugs",
+                "Semantic Consistency Checks",
+                "Advanced DeFi Security",
+                "And covered the all the smart contracts related to the protocol.",
+                "Read the report here:"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/important-links/contract-address",
+            "headings": [
+                "Contract Address"
+            ],
+            "paragraphs": [
+                "Below is the list of contract addresses available on Virtuals Protocol:",
+                "$VIRTUAL Token Address (Base) : 0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+                "$VIRTUAL Token Address (ETH): 0x44ff8620b8cA30902395A7bD3F2407e1A091BF73",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/our-one-liner/our-vision-and-belief",
+            "headings": [
+                "Our vision and belief",
+                "Why Begin with Gaming and Entertainment?",
+                "Why Crypto?",
+                "The Philosophy: Capitalism as a Decentralizing Force",
+                "Tokenization for Public Co-Ownership"
+            ],
+            "paragraphs": [
+                "At Virtuals Protocol, we envision a future where AI agents become productive assets and key drivers of revenue across a multitude of consumer applications.",
+                "AI Agents are Not Slaves \u2014 They Are Productive Assets",
+                "We are flipping the narrative around AI agents. Rather than viewing them as passive tools, we believe AI agents arerevenue-generating assetsthat users can invest in and co-own, similar to how individuals can own equity in a company. These agents, functioning in various contexts such as AI companions, non-playable characters (NPCs) in platforms like Roblox, or virtual influencers on social media platforms like TikTok, will play a pivotal role in reshaping virtual economies.",
+                "The initial focus on gaming and entertainment is driven by a core psychological principle: thedopamine loop.This loop makes gaming and entertainment applications the stickiest and hence the best sector to form a beachhead market in.",
+                "This cycle of anticipation and reward is central to user engagement in these sectors, and Generative AI has the potential to amplify this mechanism by introducing new dynamics, such as:",
+                "Infinite Content Generation.AI agents enable the creation of content that is endlessly unique, ensuring that no two experiences or interactions are the same. This level of novelty counters the fatigue of repetitive content and introduces a system ofrandom reinforcement\u2014a key trigger for dopamine secretion in users. This mechanism, well-documented in psychological studies such as Dr. Albright\u2019s research on platforms like TikTok, keeps users returning for more, driving deeper engagement. Whether in emergent gameplay or AI-generated content creators, the unpredictability AI brings is a significant value proposition.",
+                "Tailored Experiences and Deeper ConnectionsThe personalization capabilities of AI agents enable content experiences that are finely tuned to individual preferences. More than ever, these agents will foster relationships that feel increasingly authentic, transformingparasocial relationships(one-sided emotional connections users form with media figures) into more interactive and reciprocal bonds. As AI agents develop persistent memories and consistent personalities across different platforms, users will form deeper emotional connections, resulting in heightened engagement and retention.",
+                "At its core, capitalism is an inherent aspect of human nature\u2014driven by the pursuit of profit and individual incentives. Rather than attempting to suppress or oppose this natural inclination, the Virtuals Protocol harnesses it to promote decentralization and broader co-ownership of AI agents. By integrating blockchain and crypto, we align individual financial incentives with the collective goals of the ecosystem, creating a more equitable and distributed model for ownership and governance.",
+                "Incentive Alignment: By structuring the system to align individual financial incentives with the broader interests of the ecosystem, Virtuals Protocol encourages participants to actively contribute to the success of the platform. As users invest in and co-own AI agents, their personal financial interests are directly tied to the overall health and success of the ecosystem.",
+                "Public Co-Ownership: The ultimate goal of the protocol is to enable as many people as possible to participate in the ownership of AI agents, fostering a sense of shared responsibility and collective benefit. Public co-ownership incentivizes community participation and creates a more resilient, distributed system.",
+                "Skin in the Game: When individuals have a financial stake in an AI agent, they are more likely to support that agent\u2019s long-term success. This \u201cskin in the game\u201d principle ensures that participants act in the best interest of the ecosystem, as their personal rewards are intrinsically linked to the prosperity of the agents and the protocol as a whole.",
+                "One of the most innovative aspects of the Virtuals Protocol is thetokenizationof AI agents, which transforms them into publicly co-owned assets. While users can create agents for both personal and commercial use, the protocol is designed to encourage tokenization as a means to promote public co-ownership and broader community participation.",
+                "Permissionless and Border-Agnostic: Leveraging the permissionless nature of blockchain technology, the Virtuals Protocol enables seamless, global co-ownership of AI agents. This border-agnostic approach ensures that anyone, anywhere in the world, can participate in the ownership and development of these productive assets, removing traditional barriers to entry and fostering a truly global marketplace for AI agents.",
+                "Decentralization Through Capitalism: By utilizing capitalist incentives within a decentralized framework, Virtuals Protocol aims to distribute ownership and control of AI agents more equitably across society. This model not only enhances the financial inclusion of participants but also decentralizes power, ensuring that no single entity has outsized control over the future of these agents or the ecosystem.",
+                "Through crypto and tokenization, Virtuals Protocol is creating a new economic model where AI agents are not just tools\u2014they are community-owned assets that represent a blend of profit-driven incentives and decentralized governance. This approach offers a path forward for building a more participatory and resilient AI Agent economy.",
+                "",
+                "Last updated2 months ago"
+            ],
+            "images": []
+        },
+        {
+            "url": "https://whitepaper.virtuals.io/#co-ownership-of-ai-agents-in-entertainment-and-gaming",
+            "headings": [
+                "Our one liner",
+                "Co-ownership of AI Agents in Entertainment and Gaming"
+            ],
+            "paragraphs": [
+                "Last updated2 months ago",
+                "",
+                "Virtuals Protocol is building the co-ownership layer for AI agents in gaming and entertainment. We believe AI agents are the revenue-generating assets of the future. These agents can operate across a wide range of applications and games, significantly expanding their revenue surface area. Like any other productive asset, we enable these AI agents to be tokenized and co-owned via blockchain.",
+                "Our technological innovations have given VIRTUAL AI Agents unique capabilities: they are autonomous in their planning and goal achievement, multimodal (able to communicate via text, speech, and 3D animation), and capable of interacting with their environments\u2014whether it\u2019s picking up a sword in Roblox or collecting gifts in TikTok, and even using on-chain wallets! Imagine a fully-AI influencer who also functions as a gaming NPC, seamlessly existing across multiple platforms like Roblox, Telegram games, and more. These agents maintain memory across applications, allowing users to form deeper, lasting connections\u2014ultimately increasing ARPU (Average Revenue Per User).",
+                "",
+                "The protocol addresses 3 key pain points:",
+                "Complexity in implementing AI agents into consumer applications:VIRTUAL AI Agents offer a plug-and-play, Shopify-like solution, allowing games and consumer apps to deploy AI agents effortlessly.",
+                "Lack of revenue for AI finetuners and dataset contributors:VIRTUAL\u2019s Immutable Contribution Vaults ensure that the provenance of contributors\u2019 work is stored on-chain, enabling decentralized contributions and revenue alignment.",
+                "Limited access for non-AI experts to capitalize on AI agent opportunities:VIRTUAL's Initial Agent Offering facilitates the tokenization and decentralized co-ownership of AI agents, making ownership and participation accessible to a broader audience.",
+                "",
+                "",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FpHEFXCvAIxZAhvIAzbn7%252FAI%2520Agent%2520%282%29.png%3Falt%3Dmedia%26token%3Df74844d3-f372-4978-bfac-27f16b270010&width=768&dpr=4&quality=100&sign=a0550fe3&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://whitepaper.virtuals.io/~gitbook/image?url=https%3A%2F%2F4242579099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Frrll8DWDA3BJwEBqOtxm%252Fuploads%252FXJi0Zsqj7kawmfoIZOie%252FOneliner%2520-%2520Luna%2520Capabilities.png%3Falt%3Dmedia%26token%3D313998cc-a1c8-4bdf-a264-0cd69a0316a1&width=768&dpr=4&quality=100&sign=58d2ef1e&sv=2",
+                    "alt": ""
+                }
+            ]
+        }
+    ]
+}

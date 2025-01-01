@@ -1,38 +1,71 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+import _ from 'lodash';
+import { fetchTokenData, fetchTokenInfo } from '@/lib/api';
 
+// This interface goes at the top of the file
 interface Agent {
-  id: number;
+  id: string;
   name: string;
+  ticker: string;
   category: string;
-  mcapInVirtual: number;
-  holderCount: number;
+  marketCap: number;
+  holders: number;
+  priceUSD?: number;
+  priceChange24h?: number;
+  volume24h?: number;
+  liquidity?: number;
 }
 
-function getMarketCapCategory(mcap: number) {
-  if (mcap < 1000) return { label: 'Micro Cap', color: 'bg-gray-100 text-gray-800' };
-  if (mcap < 10000) return { label: 'Small Cap', color: 'bg-blue-100 text-blue-800' };
-  if (mcap < 100000) return { label: 'Mid Cap', color: 'bg-green-100 text-green-800' };
-  return { label: 'Large Cap', color: 'bg-purple-100 text-purple-800' };
-}
+type MarketCapFilter = 'ALL' | 'MICRO' | 'SMALL' | 'MID' | 'LARGE';
 
 export default function AgentsPage() {
   const [agents, setAgents] = useState<Agent[]>([]);
   const [loading, setLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [newAgentId, setNewAgentId] = useState('');
-  const [error, setError] = useState('');
+  const [error, setError] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [inputValue, setInputValue] = useState('');
+  const [marketCapFilter, setMarketCapFilter] = useState<MarketCapFilter>('ALL');
 
+  // This is your updated fetchAgents function
   const fetchAgents = async () => {
     try {
-      const res = await fetch('/api/agents');
-      const data = await res.json();
-      setAgents(data.agents);
+      setLoading(true);
+      // First get the list of agents
+      const response = await fetch('/api/agents');
+      if (!response.ok) {
+        throw new Error('Failed to fetch agents');
+      }
+      const data = await response.json();
+      
+      // Enhance agents with market data
+      const enhancedAgents = await Promise.all(
+        data.agents.map(async (agent: Agent) => {
+          try {
+            // Get market data from GeckoTerminal
+            const marketData = await fetchTokenData(agent.id);
+            const tokenInfo = await fetchTokenInfo(agent.id);
+            
+            return {
+              ...agent,
+              priceUSD: marketData.data?.attributes?.price_usd || 0,
+              priceChange24h: marketData.data?.attributes?.price_change_24h || 0,
+              volume24h: marketData.data?.attributes?.volume_24h || 0,
+              liquidity: marketData.data?.attributes?.reserve_in_usd || 0
+            };
+          } catch (error) {
+            console.error(`Error fetching market data for ${agent.name}:`, error);
+            return agent;
+          }
+        })
+      );
+
+      setAgents(enhancedAgents);
       setError('');
-    } catch (error) {
-      console.error('Error fetching agents:', error);
-      setError('Failed to fetch agents');
+    } catch (err: any) {
+      console.error('Error:', err);
+      setError(err.message);
     } finally {
       setLoading(false);
     }
@@ -42,154 +75,167 @@ export default function AgentsPage() {
     fetchAgents();
   }, []);
 
-  const addAgent = async () => {
-    if (!newAgentId) {
-      setError('Please enter an agent ID');
-      return;
-    }
-
-    try {
-      const res = await fetch('/api/agents', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ agentId: newAgentId }),
-      });
-
-      if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || 'Failed to add agent');
-      }
-
-      setNewAgentId('');
-      setError('');
-      fetchAgents();
-    } catch (error) {
-      console.error('Error adding agent:', error);
-      setError(error instanceof Error ? error.message : 'Failed to add agent');
-    }
-  };
-
-  const removeAgent = async (agentId: string) => {
-    try {
-      const res = await fetch('/api/agents', {
-        method: 'DELETE',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ agentId }),
-      });
-
-      if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || 'Failed to remove agent');
-      }
-
-      setError('');
-      fetchAgents();
-    } catch (error) {
-      console.error('Error removing agent:', error);
-      setError(error instanceof Error ? error.message : 'Failed to remove agent');
-    }
-  };
-
-  const filteredAgents = agents.filter(agent => 
-    agent.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    agent.category.toLowerCase().includes(searchQuery.toLowerCase())
+  // Your existing search and filter functions stay the same
+  const debouncedSearch = useCallback(
+    _.debounce((value: string) => {
+      setSearchTerm(value);
+    }, 300),
+    []
   );
+
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setInputValue(value);
+    debouncedSearch(value);
+  };
+
+  // Your existing getFilteredAgents function stays the same
+  const getFilteredAgents = () => {
+    return agents.filter(agent => {
+      const searchMatch = 
+        agent.ticker.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        agent.name.toLowerCase().includes(searchTerm.toLowerCase());
+
+      let marketCapMatch = true;
+      switch (marketCapFilter) {
+        case 'MICRO':
+          marketCapMatch = agent.marketCap < 1000;
+          break;
+        case 'SMALL':
+          marketCapMatch = agent.marketCap >= 1000 && agent.marketCap < 10000;
+          break;
+        case 'MID':
+          marketCapMatch = agent.marketCap >= 10000 && agent.marketCap < 100000;
+          break;
+        case 'LARGE':
+          marketCapMatch = agent.marketCap >= 100000;
+          break;
+        default:
+          marketCapMatch = true;
+      }
+
+      return searchMatch && marketCapMatch;
+    });
+  };
+
+  const filteredAgents = getFilteredAgents();
+
+  // Your existing market cap buttons configuration stays the same
+  const marketCapButtons = [
+    { label: 'All', value: 'ALL' as MarketCapFilter, class: 'bg-gray-700' },
+    { label: 'Micro Cap (<1K)', value: 'MICRO' as MarketCapFilter, class: 'bg-blue-900' },
+    { label: 'Small Cap (1K-10K)', value: 'SMALL' as MarketCapFilter, class: 'bg-purple-900' },
+    { label: 'Mid Cap (10K-100K)', value: 'MID' as MarketCapFilter, class: 'bg-green-900' },
+    { label: 'Large Cap (>100K)', value: 'LARGE' as MarketCapFilter, class: 'bg-violet-900' }
+  ];
 
   if (loading) {
     return (
-      <div className="p-6">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto" />
+      <div className="flex items-center justify-center h-[calc(100vh-4rem)]">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-500" />
       </div>
     );
   }
 
+  if (error) {
+    return (
+      <div className="p-8">
+        <div className="bg-red-500/10 border border-red-500 text-red-500 rounded-lg p-4">
+          {error}
+        </div>
+      </div>
+    );
+  }
+
+  // Updated table structure with new columns
   return (
-    <div className="p-6">
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-4">Monitored Agents</h1>
-        
-        <div className="mb-4 flex gap-2">
-          <input
-            type="text"
-            value={newAgentId}
-            onChange={(e) => setNewAgentId(e.target.value)}
-            placeholder="Enter agent ID..."
-            className="px-4 py-2 border rounded-lg"
-          />
-          <button
-            onClick={addAgent}
-            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
-          >
-            Add Agent
-          </button>
-        </div>
-
-        {error && (
-          <div className="mb-4 p-4 bg-red-100 text-red-700 rounded-lg">
-            {error}
+    <div className="min-h-screen p-8">
+      <h1 className="text-3xl font-bold text-yellow-400 mb-8">Monitored Agents</h1>
+      
+      <div className="mb-8 space-y-4">
+        <div className="flex flex-col gap-4">
+          <div className="relative">
+            <input
+              type="text"
+              className="w-full px-4 py-2 bg-gray-800/50 border border-gray-700 rounded-lg focus:outline-none focus:border-indigo-500 text-gray-200"
+              placeholder="Search by name or ticker..."
+              value={inputValue}
+              onChange={handleSearch}
+            />
           </div>
-        )}
-
-        <div className="mb-4 flex gap-3">
-          <span className="px-2 py-1 text-xs rounded bg-gray-100 text-gray-800">Micro Cap (&lt;1K)</span>
-          <span className="px-2 py-1 text-xs rounded bg-blue-100 text-blue-800">Small Cap (1K-10K)</span>
-          <span className="px-2 py-1 text-xs rounded bg-green-100 text-green-800">Mid Cap (10K-100K)</span>
-          <span className="px-2 py-1 text-xs rounded bg-purple-100 text-purple-800">Large Cap (&gt;100K)</span>
+          
+          <div className="flex flex-wrap gap-2">
+            {marketCapButtons.map((button) => (
+              <button
+                key={button.value}
+                className={`px-4 py-2 text-white rounded-full text-sm transition-colors ${
+                  marketCapFilter === button.value 
+                    ? `${button.class} ring-2 ring-yellow-400` 
+                    : `${button.class} opacity-75 hover:opacity-100`
+                }`}
+                onClick={() => setMarketCapFilter(button.value)}
+              >
+                {button.label}
+              </button>
+            ))}
+          </div>
         </div>
-
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Search agents..."
-          className="w-full max-w-md px-4 py-2 border rounded-lg"
-        />
       </div>
 
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white">
+        <table className="w-full">
           <thead>
-            <tr className="bg-gray-50">
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Category</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Market Cap</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Holders</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+            <tr className="text-gray-400 text-left">
+              <th className="px-6 py-3">Name</th>
+              <th className="px-6 py-3">Ticker</th>
+              <th className="px-6 py-3">Category</th>
+              <th className="px-6 py-3">Price USD</th>
+              <th className="px-6 py-3">24h Change</th>
+              <th className="px-6 py-3">24h Volume</th>
+              <th className="px-6 py-3">Market Cap</th>
+              <th className="px-6 py-3">Holders</th>
+              <th className="px-6 py-3">Actions</th>
             </tr>
           </thead>
           <tbody>
-            {filteredAgents.map((agent) => {
-              const marketCap = getMarketCapCategory(agent.mcapInVirtual);
-              return (
-                <tr key={agent.id} className="hover:bg-gray-50">
-                  <td className="px-6 py-4 whitespace-nowrap">{agent.name}</td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <span className="px-2 py-1 text-xs rounded bg-gray-100">
-                      {agent.category}
-                    </span>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <div className="flex items-center gap-2">
-                      <span className={`px-2 py-1 text-xs rounded ${marketCap.color}`}>
-                        {marketCap.label}
-                      </span>
-                      <span>{agent.mcapInVirtual.toLocaleString()}</span>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    {agent.holderCount.toLocaleString()}
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    <button
-                      onClick={() => removeAgent(agent.id.toString())}
-                      className="text-red-600 hover:text-red-800"
-                    >
-                      Remove
-                    </button>
-                  </td>
-                </tr>
-              );
-            })}
+            {filteredAgents.map((agent) => (
+              <tr key={agent.id} className="border-t border-gray-800">
+                <td className="px-6 py-4 text-gray-300">{agent.name}</td>
+                <td className="px-6 py-4 text-gray-300">{agent.ticker}</td>
+                <td className="px-6 py-4">
+                  <span className="px-3 py-1 bg-blue-900 text-white rounded-full text-sm">
+                    {agent.category}
+                  </span>
+                </td>
+                <td className="px-6 py-4 text-gray-300">
+                  ${(agent.priceUSD || 0).toLocaleString()}
+                </td>
+                <td className={`px-6 py-4 ${(agent.priceChange24h ?? 0) >= 0 ? 'text-green-500' : 'text-red-500'}`}>
+                  {((agent.priceChange24h ?? 0)).toFixed(2)}%
+                </td>
+                <td className="px-6 py-4 text-gray-300">
+                  ${(agent.volume24h || 0).toLocaleString()}
+                </td>
+                <td className="px-6 py-4 text-gray-300">
+                  ${(agent.marketCap || 0).toLocaleString()}
+                </td>
+                <td className="px-6 py-4 text-gray-300">
+                  {(agent.holders || 0).toLocaleString()}
+                </td>
+                <td className="px-6 py-4">
+                  <button className="text-red-500 hover:text-red-400">
+                    Remove
+                  </button>
+                </td>
+              </tr>
+            ))}
+            {filteredAgents.length === 0 && (
+              <tr>
+                <td colSpan={9} className="px-6 py-4 text-center text-gray-500">
+                  No agents found matching your search criteria
+                </td>
+              </tr>
+            )}
           </tbody>
         </table>
       </div>

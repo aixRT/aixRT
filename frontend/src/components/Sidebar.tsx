@@ -2,17 +2,29 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { HomeIcon, CogIcon, ChartBarIcon, BoltIcon, SignalIcon } from '@heroicons/react/24/outline';
+import { 
+  HomeIcon, 
+  CogIcon, 
+  ChartBarIcon, 
+  BoltIcon, 
+  SignalIcon, 
+  WalletIcon,
+  QuestionMarkCircleIcon,
+  RocketLaunchIcon
+} from '@heroicons/react/24/outline';
 
 export default function Sidebar() {
   const pathname = usePathname();
 
   const navigation = [
     { name: 'Dashboard', href: '/', icon: HomeIcon },
+    { name: 'Holdings', href: '/holdings', icon: WalletIcon },
     { name: 'Agents', href: '/agents', icon: ChartBarIcon },
-    { name: 'Signals', href: '/signals', icon: SignalIcon },
     { name: 'Real-Time', href: '/realtime', icon: BoltIcon },
-    { name: 'Settings', href: '/settings', icon: CogIcon },
+    { name: 'Signals', href: '/signals', icon: SignalIcon },
+    { name: 'Alerts', href: '/alerts', icon: CogIcon },
+    { name: 'Getting Started', href: '/getting-started', icon: QuestionMarkCircleIcon },
+    { name: 'Roadmap', href: '/roadmap', icon: RocketLaunchIcon },
   ];
 
   return (

@@ -1,1 +1,11 @@
-["273","272","896"]
+[
+  {
+    "id": "1",
+    "name": "G.A.M.E",
+    "ticker": "GAME",
+    "category": "FUNCTIONAL",
+    "holders": 158807,
+    "marketCap": 0,
+    "price": 0
+  }
+]

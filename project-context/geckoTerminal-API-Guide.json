@@ -1,0 +1,464 @@
+{
+    "pages": [
+        {
+            "url": "https://apiguide.geckoterminal.com/",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/getting-started",
+            "headings": [
+                "\ud83d\ude80Getting Started",
+                "1. Making an API request"
+            ],
+            "paragraphs": [
+                "It is really easy!",
+                "Root URL for GeckoTerminal API:https://api.geckoterminal.com/api/v2",
+                "You can find all the available API endpoints athttps://www.geckoterminal.com/dex-api",
+                "Make an API call using curl or any HTTP libraries",
+                "Try it by pasting the code below into your terminal",
+                "",
+                "Last updated6 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/authentication",
+            "headings": [
+                "\ud83d\udd11Authentication"
+            ],
+            "paragraphs": [
+                "GeckoTerminal API is currently in Beta and is available publicly. There is no authentication needed at the moment. However you are subject to a universal rate limit.",
+                "Last updated6 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/faq",
+            "headings": [
+                "\u2753FAQ",
+                "Q: What is the rate limit for the GeckoTerminal API?",
+                "Q: Is there a paid plan to access higher rate limit for GeckoTerminal API?",
+                "Q: I have a CoinGecko API subscription, can I use that subscription with the GeckoTerminal API?",
+                "Q: I am already using the CoinGecko API to get token prices, why do I need GeckoTerminal API?",
+                "Q: Can I get the historical price and volume of a token?",
+                "Q: For/networks/{network}/tokens/{token_address}/poolendpoint, how are the top 20 pools being ranked?",
+                "Q: For/networks/{network}/tokens/{address}endpoint, what does \"price_usd\" refer to?",
+                "Q: What is the timestamp format used in the OHLCV endpoint?",
+                "Q: Why is `market_cap_usd` null?"
+            ],
+            "paragraphs": [
+                "A: The current rate limit for the Public API is set at 30 calls per minute. Should you require a higher rate limit, please refer to the question below.",
+                "A: Yes, you may subscribe to any CoinGecko API paid plan to access higher rate limit for GeckoTerminal endpoints (known as/onchainendpoints). Learn more on:https://www.coingecko.com/en/api/pricing",
+                "A: Yes, you may now access all theendpointsdirectly with your CoinGecko API paid subscription. Here's the documentation:https://docs.coingecko.com/",
+                "A: Here are a few reasons why you would want to consider GeckoTerminal API :-",
+                "On-chain first. In GeckoTerminal everything is an address. You can query DEX and token data using contract addresses.",
+                "Tokens that are not listed on CoinGecko. Since GeckoTerminal ingests all trades on the network. You can get prices for any tokens that are not found on CoinGecko. However you need to know what you are doing since these tokens may be spams.",
+                "OHLCV based on on-chain trades.",
+                "A: Yes you can. You will need to identify the pool that is trading the token you are interested in. Use theohlcvendpoint and pass in the pool address. Specify the candle timeframe and aggregate. For example, if you are looking for daily data, passdayinto the timeframe and1into the aggregate.",
+                "A: The top 20 pools are ranked based on their liquidity and trading activity, with the goal of identifying the most liquid pools. The ranking is determined by a combination of two key factors: liquidity ('reserve_in_usd') and 24-Hour Trading Volume ('volume_usd').",
+                "A: \"price_usd\" refers to the USD price of the token in thefirst poollisted under \"top_pools\".",
+                "A: Timestamp format is in epoch/unix timestamp seconds. For example use1679414400and not1679414400000which is in epoch/unix milliseconds. The OHLCV endpoint returns candlestick timestamp in this format, and you should also use this format when calling the query parameter.",
+                "market_cap_usdis null if the token returned on GeckoTerminal API is not listed on coingecko.com or do not have its supply verified (if listed on CoinGecko).fdvwill always be returned as its a multiplier of onchain supply and current price.",
+                "Last updated3 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/changelogs",
+            "headings": [
+                "\ud83d\uddd3\ufe0fChangelogs",
+                "8 October 2024:",
+                "9 July 2024:",
+                "11 March 2024:",
+                "28 February 2024:",
+                "3 December 2023:",
+                "24 November 2023:",
+                "10 November 2023:",
+                "8 November 2023:",
+                "23 October 2023:",
+                "11 September 2023:",
+                "7 September 2023:",
+                "6 September 2023:",
+                "23 June 2023:",
+                "28 May 2023:",
+                "19 April 2023:",
+                "18 April 2023:",
+                "23 March 2023:"
+            ],
+            "paragraphs": [
+                "/tokens/info_recently_updatedcan be filtered by blockchain network.",
+                "/tokens/info_recently_updatedincludes decimal places.",
+                "All pool in responses now returnsprice_change_percentage,transactions, andvolume_usdin more intervals 5-minutes, 1-hour, 6-hours, and 24-hours.",
+                "image_urlnow returned in the token response in the/tokensand/poolsendpoints.",
+                "Sorting parameters such asorder=h24_volume_usd_descandorder=h24_tx_count_descadded for/poolsendpoints.",
+                "/ohlcendpoint can now accept token address (as long as it exist in the pool queried) to be returned as data.",
+                "/ohlcresponse describes the base and target token.",
+                "Pool data now returns transaction stats for the last 1 hour. Unique buyers and sellers in the last 1 hour and 24 hours are now returned in the response.",
+                "Trending Pools API is now available to fetch a list of pools that are trending as seen on GeckoTerminal based on web visits and onchain activities./networks/{network}/trending_pools",
+                "Inspired by CoinGecko API most popular endpoint, we have launched the Simple endpoint. Simply pass in addresses of any tokens on supported blockchain and get price data for it.",
+                "You can now get the latest 300 trades in the past 24 hours of a given pool. You may optionally filter by trade size as well./networks/{network}/pools/{pool_address}/tradesYou can now build your own telegram bot alert!",
+                "You can now fetch token information such as name, image, social links, and description via API calls",
+                "To fetch information of tokens inside a pool, use/networks/{network}/pools/{pool_address}/info",
+                "To fetch information of a specific token use/networks/{network}/tokens/{address}/info",
+                "If you like to get token information of the most recently updated tokens, use/tokens/info_recently_updated",
+                "Pool response data now returns price in the base and quote token of the poolbase_token_price_quote_tokenandquote_token_price_base_tokenfor your convenience without the need to do additional calculation to derive these values.",
+                "Added new endpoint to search for pools/search/poolsbased on keywords passed into query.",
+                "Added new endpoints to allow querying multiple pools and tokens in a single API call./networks/{network}/pools/multi/{addresses}and/networks/{network}/tokens/multi/{addresses}",
+                "More data added to the Pool response such as FDV, market cap (from CoinGecko if available), price change percentage, volume, number of buy/sell transactions",
+                "More data added when querying for token such as FDV, volume, market cap, and the top 3 pools.",
+                "Token metadata such as name, symbol, and CoinGecko ID are now returned in the Pool response. Need to pass in this attributeinclude=base_token,quote_token.",
+                "CoinGecko asset platform ID added to the response for/api/v2/networksAPI call.",
+                "Rate limit increased from 10 calls per minute to 30 calls per minute",
+                "base_token_native_currencyandquote_token_native_currencyadded to thepoolsendpoint response. This allows you to obtain price in the network's native currency in addition to in USD.",
+                "reserve_in_usdadded to thepoolsendpoint response. This returns total liquidity/reserve of the pool in USD.",
+                "pool_created_atadded to thepoolsendpoint response.",
+                "/networks/{network}/new_poolsAPI endpoint added to query new pools discovered for a network",
+                "/networks/new_pools API endpointadded to query new pools discovered across all networks",
+                "ohlcvendpoint returns more granularityday,hour,minuteand multipleaggregates",
+                "Last updated2 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/clients-libraries-unofficial",
+            "headings": [
+                "\ud83d\udee0\ufe0fClients/Libraries (Unofficial)"
+            ],
+            "paragraphs": [
+                "These are open-sourced projects owned by their respective maintainers and community. CoinGecko is not responsible for maintaining the compatibility of these projects - please DYOR.",
+                "Last updated6 months ago",
+                "Note: These wrappers are for GeckoTerminal API only. For CoinGecko API clients, check them out at theCoinGecko API doc.",
+                "Rust",
+                "",
+                "Python",
+                "",
+                "Python",
+                "",
+                "Python",
+                "",
+                "Kotlin",
+                ""
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/#access-on-chain-dex-data-on-coingecko-api",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/#embedded-charts",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/getting-started",
+            "headings": [
+                "\ud83d\ude80Getting Started",
+                "1. Making an API request"
+            ],
+            "paragraphs": [
+                "It is really easy!",
+                "Root URL for GeckoTerminal API:https://api.geckoterminal.com/api/v2",
+                "You can find all the available API endpoints athttps://www.geckoterminal.com/dex-api",
+                "Make an API call using curl or any HTTP libraries",
+                "Try it by pasting the code below into your terminal",
+                "",
+                "Last updated6 months ago"
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/#access-on-chain-dex-data-on-coingecko-api",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        },
+        {
+            "url": "https://apiguide.geckoterminal.com/#embedded-charts",
+            "headings": [
+                "\ud83e\udd8eIntroduction",
+                "Access On-Chain DEX Data on CoinGecko API",
+                "Embedded Charts"
+            ],
+            "paragraphs": [
+                "GeckoTerminal is a DeFi & DEX aggregator. Explore the market data & prices of any tokens traded across 150+ blockchain networks across 1,000+ DEXes \u2013 brought to you by the same team behind CoinGecko.",
+                "Last updated25 days ago",
+                "GeckoTerminal API (Beta) aims to make DEX/DeFi data even more accessible to all developers throughRESTful JSON endpoints. Developers can get the price, market data, and historical charts of any token by calling the API.",
+                "Here are some examples of what you can do with the GeckoTerminal API :-",
+                "Get the market data (price, volume, historical chart) of any token on-chain, with a given token or pool address.",
+                "Find all the pools that are trading a specific token.",
+                "Plot a candlestick chart using OHLCV when given a pool address",
+                "You may try out all free endpoints via our public API swagger docs: \u200bhttps://www.geckoterminal.com/dex-api.",
+                "The GeckoTerminal API is currently free to use and in Beta release. It is therefore subject to changes. We strive to minimize disruption, and setting the request Version would help avoid unexpected issues.",
+                "Attribution:As the API is currently free to use, we require that you provide a link attribution back to GeckoTerminal\u2019s website where our API is used.",
+                "The same on-chain DEX data that is currently available on GeckoTerminal\u2019s Public API is also accessible via CoinGecko API\u2019s new/onchainendpoints. Subscribe to anypaid planto increase rate limits and gain access to crypto price, market data, metadata and more.",
+                "If you like to quickly add OHLCV charting capability to your website. You may use the embedded chart feature on GeckoTerminal to add the chart via an iframe. Follow this guide onhow to add embedded DEX chart to your website."
+            ],
+            "images": [
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://apiguide.geckoterminal.com/~gitbook/image?url=https%3A%2F%2F1422960528-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FP8VS4tpf1KwABmhxwL9H%252Ficon%252FgXYR2k2TDyG9ua54H8h5%252FxmJanf0q_400x400.png%3Falt%3Dmedia%26token%3Dd2652fb6-1668-46b4-8967-61b9d4b39696&width=32&dpr=4&quality=100&sign=f55fa22&sv=2",
+                    "alt": ""
+                },
+                {
+                    "url": "https://files.readme.io/7511911-small-Super_gecko-email_circle.png",
+                    "alt": "Logo"
+                }
+            ]
+        }
+    ]
+}
